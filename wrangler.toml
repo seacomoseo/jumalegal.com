@@ -1,0 +1,7 @@
+name = "jumalegal"
+pages_build_output_dir = "public"
+compatibility_date = "2025-11-27"
+
+[vars]
+HUGO_VERSION = "0.164.0"
+NODE_VERSION = "22.22.0"
