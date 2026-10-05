@@ -34,7 +34,7 @@ colors:
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: false
+      fill: true
       in: true
       text: true
   alt:
@@ -50,7 +50,7 @@ colors:
     light: '#ffffff'
     dark: '#ffffff'
     turn:
-      fill: false
+      fill: true
       in: true
       text: true
   base:
