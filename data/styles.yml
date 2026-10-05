@@ -30,7 +30,7 @@ fonts:
   blockquote_cursive: true
 colors:
   main:
-    color: '#bdd5ea'
+    color: '#1b5633'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
@@ -46,7 +46,7 @@ colors:
       in: true
       text: true
   cta:
-    color: '#fe5f55'
+    color: '#ffffff'
     light: '#ffffff'
     dark: '#ffffff'
     turn:
@@ -57,7 +57,7 @@ colors:
     white: '#ffffff'
     light: '#eeeeee'
     gray: '#767676'
-    dark: '#282525'
+    dark: '#112d22'
     black: '#000000'
 rounded:
   radius: 0.33

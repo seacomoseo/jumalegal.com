@@ -1,6 +1,6 @@
 name: Hero
 color: main-dark
-bi: /u/base/poster.png
+bi: /u/base/poster.svg
 scroll: soft
 full: true
 boxes:

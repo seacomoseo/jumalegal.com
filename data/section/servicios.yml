@@ -22,7 +22,7 @@ boxes:
     - title: Ola k ase
     - md: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-    - img: /u/base/poster.png
+    - img: /u/base/poster.svg
       inset: true
       border: cta
       ratio: 2/1
@@ -30,7 +30,7 @@ boxes:
     sub: Agámoslo!
     line: true
     md: |
-      Lorem ipsum dolor sit amet, [consectetur](/u/base/poster.png "[nofollow]") adipiscing elit, sed do eiusmod tempor.
+      Lorem ipsum dolor sit amet, [consectetur](/u/base/poster.svg "[nofollow]") adipiscing elit, sed do eiusmod tempor.
   - title: Ola k ase
     sub: Agámoslo!
     md: |
@@ -58,7 +58,7 @@ boxes:
 modals:
 - title: Ejemplo
   sub: ¿Qué quieres saber?
-  img: /u/base/poster.png
+  img: /u/base/poster.svg
   icon: info
   md: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

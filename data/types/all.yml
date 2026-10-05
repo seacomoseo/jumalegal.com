@@ -5,8 +5,9 @@ tpl:
   menu:
     logo: true
     logo_align: center
+    sticky: auto
     clear: true
-    size: sm
+    size: lg
   section:
   - size: sm
   sections:

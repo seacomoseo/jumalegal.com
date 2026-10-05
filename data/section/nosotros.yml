@@ -8,7 +8,7 @@ boxes:
     duo: 2
     align: left
   boxes:
-  - bi: /u/base/poster.png
+  - bi: /u/base/poster.svg
     scroll: soft
   - align_y: center
     md: |

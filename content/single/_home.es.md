@@ -1,7 +1,7 @@
 ---
 slug: /
 title: Inicio
-img: /u/base/poster.png
+img: /u/base/poster.svg
 sum: SanSoul es el alma del tema Hugo de lorensansol con el que generar sitios web estáticos, puedes copiarlo y usarlo como quieras
 seo:
   title: null
@@ -17,7 +17,6 @@ tpl:
   - file: faq
   - file: resenas
   - file: contacto
-  - file: mapa
 base: org
 org:
   types:
@@ -32,7 +31,7 @@ org:
   mail: null
   logo: /u/base/poster.svg
   imgs:
-  - /u/base/poster.png
+  - /u/base/poster.svg
   as:
   - https://www.facebook.com/QuantumFracture
   - https://www.instagram.com/quantumfracture/
