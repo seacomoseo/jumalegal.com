@@ -1,0 +1,32 @@
+name: Derecho Militar ➡️ Asuntos profesionales
+id: asuntos-profesionales
+size: lg
+color: white
+boxes:
+- md: Estos son puntos de partida para entender tu caso, no soluciones automáticas. La viabilidad depende de los
+    hechos y los plazos.
+  title: Asuntos de tu vida profesional.
+  boxes:
+  - title: Expedientes disciplinarios
+    md: Defensa en procedimientos por faltas leves, graves y muy graves.
+  - title: IPEC
+    md: Asesoramiento y reclamaciones relacionadas con el Informe Personal de Calificación y sus posibles consecuencias.
+  - title: EICP · Condiciones psicofísicas
+    md: Asistencia en expedientes de insuficiencia de condiciones psicofísicas, valoraciones y recursos.
+  - title: Jurisdicción militar
+    md: Asesoramiento y defensa en procedimientos ante los órganos de la jurisdicción militar.
+  - title: Conciliación y permisos
+    md: Derechos relacionados con conciliación, permisos y licencias en las Fuerzas Armadas.
+  - title: Bajas médicas
+    md: Orientación sobre bajas y su posible repercusión en la carrera militar.
+  - title: Otras consultas
+    md: Cuestiones jurídicas vinculadas con tu situación profesional militar.
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

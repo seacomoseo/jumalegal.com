@@ -1,0 +1,11 @@
+name: Nosotros ➡️ Contacto
+id: contacto
+size: lg
+color: white
+boxes:
+- md: '[Contactar↗](/contacto/)'
+  title: Lo importante es tu siguiente paso.
+box:
+  cols: 1
+  caps: false
+  align: left

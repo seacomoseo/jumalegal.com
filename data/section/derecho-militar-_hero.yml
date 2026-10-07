@@ -1,0 +1,19 @@
+name: Derecho Militar ➡️ Hero
+id: hero
+size: md
+color: light
+boxes:
+- md: 'ÁREA 01 / ESPECIALIDAD PRINCIPAL
+
+
+    Tu trabajo tiene reglas propias. Cuando una evaluación, una sanción o un procedimiento puede alterar tu carrera,
+    conviene contar con asesoramiento que entienda ese contexto.
+
+
+    [Plantear mi asunto↗](/contacto/)'
+  title: Derecho Militar. Defensa con contexto.
+  hn: h1
+box:
+  cols: 1
+  caps: false
+  align: left

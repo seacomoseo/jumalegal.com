@@ -1,4 +1,54 @@
 menu:
   img: /u/base/logo.svg
+  items:
+  - label: Inicio
+    url: /
+  - label: Derecho Militar
+    url: /derecho-militar/
+  - label: Derecho Administrativo
+    url: /derecho-administrativo/
+  - label: Nosotros
+    url: /nosotros/
+  - label: Contacto
+    url: /contacto/
+    btn: cta
+    icon: ↗
+  - label: Rincón del Militar
+    url: /rincon-del-militar/
+callnows:
+- type: custom
+  url: /contacto/
+  label: Plantea tu caso
+  icon: mail
+  ga4: false
 footer:
-  div: curve-corner
+  color: dark
+  md: hide
+  boxes:
+  - md: |
+      ![](/u/base/logo.svg)
+
+      Derecho Militar y Administrativo.\
+      Desde Murcia, para toda España.
+
+      [[::brand:instagram:: Instagram]](https://www.instagram.com/juma.legal/ "[dot nofollow]")
+      [[::brand:tiktok:: TikTok]](https://www.tiktok.com/@juma.legal "[dot nofollow]")
+      [[::brand:linkedin-in:: Linkedin]](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/ "[dot nofollow]")
+  # - node: div
+  - md: |
+      - ::none:: [Derecho Militar](/derecho-militar/)
+      - ::none:: [Derecho Administrativo](/derecho-administrativo/)
+      - ::none:: [Nosotros](/nosotros/)
+      - ::none:: [Contacto](/contacto/)
+      - ::none:: [Rincón del Militar](/rincon-del-militar/)
+    align: left
+  - md: |
+      - ::none:: [jumalegal.com](/)
+      - ::none:: [Aviso legal](/aviso/)
+      - ::none:: [Privacidad](/privacidad/)
+      - ::none:: [Cookies](/cookies/)
+      - ::none:: Diseño Web [seacomoseo.com](https://seacomoseo.com/ "[homefollow]")
+    align: left
+  box:
+    cols: 4
+    align_x: space-between

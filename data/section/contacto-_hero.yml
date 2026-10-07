@@ -1,0 +1,19 @@
+name: Contacto ➡️ Hero
+id: hero
+size: md
+color: light
+boxes:
+- md: 'CONTACTO / PRIMER PASO
+
+
+    El primer contacto permite valorar el asunto. Si es necesario estudiar tu caso en una consulta profesional,
+    te informaremos de sus condiciones antes de concertarla.
+
+
+    [Escribir a info@jumalegal.com↗](mailto:info@jumalegal.com?subject=Consulta%20para%20Juma%20Legal)'
+  title: Cuéntanos lo esencial. Nosotros te orientamos sobre el siguiente.
+  hn: h1
+box:
+  cols: 1
+  caps: false
+  align: left

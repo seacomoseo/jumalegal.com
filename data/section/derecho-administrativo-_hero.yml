@@ -1,0 +1,19 @@
+name: Derecho Administrativo ➡️ Hero
+id: hero
+size: md
+color: light
+boxes:
+- md: 'ÁREA 02 / SEGUNDA ÁREA
+
+
+    Acompañamiento jurídico a particulares, profesionales y empresas cuando una actuación administrativa afecta
+    a sus derechos o intereses.
+
+
+    [Contar mi caso↗](/contacto/)'
+  title: Derecho Administrativo. Claridad frente a la Administración.
+  hn: h1
+box:
+  cols: 1
+  caps: false
+  align: left

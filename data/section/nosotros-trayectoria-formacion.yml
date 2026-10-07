@@ -1,0 +1,41 @@
+name: Nosotros ➡️ Trayectoria y formación
+id: trayectoria-formacion
+size: lg
+color: white
+boxes:
+- md: 'Manuel Acosta dirige Juma Legal y centra su práctica en el Derecho Militar y Administrativo. Es abogado del
+    Ilustre Colegio de Abogados de Murcia.
+
+
+    Su trayectoria incluye trabajo en Derecho Público en Unive Abogados y Derecho Procesal en GRUPO PRAXIS-AFC,
+    además de asesoramiento externo a administraciones desde otros despachos. Hoy pone esa experiencia al servicio
+    de particulares, profesionales y empresas.
+
+
+    [Trayectoria y formación en LinkedIn ↗](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/)
+
+
+    **Opositor Cuerpo Jurídico Militar**'
+  title: Trato directo. Formación especializada.
+  boxes:
+  - title: Máster Universitario en Derecho Militar
+    md: Universidad Católica San Antonio · 2021
+  - title: Grado en Derecho
+    md: Universidad de Murcia · 2019
+  - title: Título profesional de Abogado
+    md: Ministerio de Justicia · 2023
+  - title: Máster de Acceso a la Abogacía
+    md: Universidad de Murcia · 2021–2022
+  - title: Experto en Derecho Militar
+    md: Formación especializada en Derecho Militar
+  - title: Contratación pública
+    md: Curso avanzado de capacitación · Universidad de Zaragoza
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

@@ -1,0 +1,38 @@
+name: Inicio ➡️ Áreas de práctica
+id: areas
+size: lg
+color: white
+box:
+  gap: 3
+  align: left
+boxes:
+- sub: 01 *Áreas de práctica*
+- boxes:
+  - title: Una práctica enfocada. **Dos áreas conectadas.**
+    hs: .03
+  - md: 'Un mismo criterio: claridad, rigor y atención personal en asuntos que pueden afectar tu trayectoria profesional.'
+    fit: .8
+  box:
+    cols: 2
+    align_y: bottom
+    align_x: space-between
+- id: areas-derecho
+  boxes:
+  - title: Derecho <br> Militar
+    sub: 01 / Especialidad Principal
+    md: Procedimientos disciplinarios, IPEC, condiciones psicofísicas, jurisdicción militar y vida profesional.
+    url: /derecho-militar/
+    color: main-dark
+  - title: Derecho <br> Administrativo
+    sub: 02 / Segunda Área
+    md: Empleo público, sanciones, recursos, contratación pública y otros conflictos con la Administración.
+    url: /derecho-administrativo/
+    color: main-light
+  box:
+    cols: 2
+    gap: 1
+    pd: 2
+    hs: .03
+    # btn: none
+    label: Conocer el área
+    pin: ↗

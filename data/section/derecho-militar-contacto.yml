@@ -1,0 +1,15 @@
+name: Derecho Militar ➡️ Contacto
+id: contacto
+size: lg
+color: white
+boxes:
+- md: 'Explícanos brevemente qué ha ocurrido y si hay algún plazo próximo. No envíes expedientes ni datos de salud
+    por email inicial.
+
+
+    [Cómo plantear una consulta↗](/contacto/)'
+  title: Tu caso no cabe en una tarjeta.
+box:
+  cols: 1
+  caps: false
+  align: left

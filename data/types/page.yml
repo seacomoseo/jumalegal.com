@@ -1,0 +1,8 @@
+title: Páginas Simples
+base: page
+weight: 100
+tpl:
+  list:
+    shade: false
+    hs: 4
+    hs_vs: 4

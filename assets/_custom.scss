@@ -1,3 +1,73 @@
+@use "../themes/sansoul/assets/css/variables" as *;
+@use "../themes/sansoul/assets/css/mixins" as *;
+
+// General
+.sub {
+  @include font-base-bold;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-size: 66%;
+}
+.box__title:not(.hide) + .box__sub {
+  order: -1;
+  margin: 0 0 calc(-0.5 * var(--box-gap));
+}
+.box__icon--top,
+.img {
+  &:has(+ .box__title:not(.hide) + .box__sub) {
+    order: -2;
+  }
+}
+.bg-card {
+  order: -3;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+  strong {
+    // display: block;
+    color: var(--alt-text);
+  }
+}
+.bg-white,
+.bg-light,
+.bg-main-light,
+.bg-cta-light {
+  --text: #506357;
+  // --alt-text: #a27a4b;
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6,
+  .h {
+    strong {
+      font-weight: inherit;
+    }
+  }
+}
+.bg-black,
+.bg-dark,
+.bg-main-dark,
+.bg-cta-dark {
+  --text: #e0e8df;
+}
+.md blockquote {
+  --subtitle: var(--alt-text);
+}
+.btn,
+.link {
+  .icon--txt {
+    order: 20;
+    align-self: center;
+  }
+}
+
 // Hero 
 @mixin show-from($delay) {
   animation: show-from .5s (.25 + .125s * $delay) both;
@@ -9,4 +79,26 @@
   .sub        { @include show-from(2); }
   .md p       { @include show-from(3); }
   .md .btns   { @include show-from(4); }
+  .img {
+    margin-bottom: -5em;
+    @media (min-width: $viewport-xl) {
+      margin-top: -5em;
+      img {
+        --mask-img: linear-gradient(to right, transparent 0%, black 15%);
+        -webkit-mask-image: var(--mask-img);
+        mask-image: var(--mask-img);
+      }
+    }
+  }
+}
+
+// Áreas
+#areas-derecho {
+  .box__title {
+    margin-block: 1.5rem;
+  }
+  .box__btn {
+    margin-top: 1.5rem;
+    width: auto;
+  }
 }

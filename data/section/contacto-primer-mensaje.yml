@@ -1,0 +1,42 @@
+name: Contacto ➡️ Primer mensaje
+id: primer-mensaje
+size: lg
+color: white
+boxes:
+- title: Qué conviene contarnos.
+  boxes:
+  - title: Primer contacto por correo
+    md: 'UN PRIMER MENSAJE ES SUFICIENTE
+
+
+      - Tu nombre y un teléfono de contacto.
+
+      - Un resumen breve de lo ocurrido.
+
+      - El área del asunto: militar o administrativo.
+
+      - Si has recibido una notificación y existe un plazo próximo.
+
+
+      No envíes por este primer contacto documentación confidencial, datos de salud ni información de terceros.
+      El envío no suspende plazos ni implica aceptación del encargo.
+
+
+      **Correo**[info@jumalegal.com ↗](mailto:info@jumalegal.com)**Ámbito**Murcia · Atención en toda España**Atención
+      presencial**Murcia · Solo con cita previamente acordada con Manuel. Confirma con él la dirección y el acceso
+      antes de acudir.**Horario**L–J 10:00–14:00 y 16:00–18:00 · V 08:00–14:00
+
+
+      El formulario no está habilitado en esta vista previa. No recoge datos ni realiza envíos.
+
+
+      [Escribir a info@jumalegal.com](mailto:info@jumalegal.com)'
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

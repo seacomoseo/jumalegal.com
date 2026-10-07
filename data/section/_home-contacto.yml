@@ -1,0 +1,17 @@
+name: Inicio ➡️ Contacto
+id: contacto
+size: lg
+color: white
+boxes:
+- md: 'HABLEMOS CON CLARIDAD
+
+
+    Un primer mensaje basta para valorar si podemos ayudarte. La consulta jurídica de estudio se acuerda aparte.
+
+
+    [Plantear mi asunto↗](/contacto/)'
+  title: ¿Necesitas orientación sobre tu situación?
+box:
+  cols: 1
+  caps: false
+  align: left

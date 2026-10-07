@@ -1,87 +1,92 @@
 ---
+weight: 1
 slug: /
 title: Inicio
-img: /u/base/poster.svg
-sum: SanSoul es el alma del tema Hugo de lorensansol con el que generar sitios web estáticos, puedes copiarlo y usarlo como quieras
+sum: 'Juma Legal: Derecho Militar y Administrativo en Murcia, con atención en toda España.'
 seo:
-  title: null
-  desc: llll➤ SanSoul es un tema de Hugo con alma para webs de servicios ✅ por lorensansol ☎️ 123 456 789.
+  title: 'Juma Legal: Manuel Acosta, abogado en Murcia'
+  desc: 'Conoce el despacho de Manuel Acosta: Derecho Militar de alcance nacional y Derecho Administrativo en Murcia.
+    Trato directo y cita acordada.'
+img: /u/base/poster-sq.svg
+icon: home
 tpl:
   sections:
-  - file: _hero
-  - file: nosotros
-  - file: servicios
-  - file: proceso
-  - file: fotos
-  - file: noticias
-  - file: faq
-  - file: resenas
-  - file: contacto
+  - file: _home-_hero
+  - file: _home-enfoque
+  - file: _home-areas
+  - file: _home-manuel
+  - file: _home-primer-contacto
+  - file: _home-rincon-del-militar
+  - file: _home-resenas
+  - file: _home-contacto
 base: org
 org:
   types:
-  - LocalBusiness
   - Organization
+  - LegalService
   names:
-  - Tema SanSoul de Hugo EJEMPLO
-  - SanSoul
-  desc: null
-  legal: null
+  - Juma Legal
+  - JUMA LEGAL
+  - JUMA Estudio Legal
+  - JUMA
+  desc: Despacho dirigido por Manuel Andrés Acosta Hellín desde Murcia, centrado en Derecho Militar con atención
+    nacional y Derecho Administrativo. Contacto por correo y citas previamente acordadas.
+  legal: Manuel Andrés Acosta Hellín
   nif: null
-  mail: null
-  logo: /u/base/poster.svg
+  mail: info@jumalegal.com
+  logo: /u/base/poster-sq.svg
   imgs:
-  - /u/base/poster.svg
+  - /u/fotos/manuel-acosta-retrato-principal.webp
+  - /u/fotos/manuel-acosta-retrato-informal.webp
+  - /u/fotos/manuel-acosta-llamada.webp
+  - /u/fotos/juma-tarjetas-balanza.webp
   as:
-  - https://www.facebook.com/QuantumFracture
-  - https://www.instagram.com/quantumfracture/
-  - https://g.page/r/CQI3T3wmeAB6EBM
+  - https://www.instagram.com/juma.legal/
+  - https://www.tiktok.com/@juma.legal
+  - https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/
+  - https://g.page/r/CXf2KwVw8SgAEBM
   phones:
-  - 123456789
-  - +34 987 654 321
+  - 603 96 99 51
   address:
-    name: Sea Como SEO
-    street: Ronda de Levante, 1
-    pc: '30008'
+    name: Juma Legal
+    street: C. Sánchez Madrigal
+    pc: '30004'
     locality: Murcia
     region: Murcia
     country: ES
-    geo: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
-    url: https://g.page/r/CQI3T3wmeAB6EBM
+    geo: '{"type":"Point","coordinates":[-1.130165,37.985311]}'
+    url: https://maps.google.com/maps?cid=11524462493824631
   areas:
-  - Región de Murcia
-  - Internacional
-  - Online
+  - España
+  - Murcia
   when:
   - days:
       mon: true
       tue: true
       wed: true
       thu: true
-      fri: true
-      sat: false
-      sun: false
     hours:
-    - open: 9:00
+    - open: 10:00
       close: 14:00
-    - open: 17:00
-      close: 20:00
+    - open: 16:00
+      close: 18:00
   - days:
-      sat: true
+      fri: true
     hours:
-    - open: 9:00
-      close: 13:00
+    - open: 8:00
+      close: 14:00
   prices: €€
   services:
-  - title: Diseño Web
-    desc: null
-    price: 800
-    area: Internacional
-  - title: SEO
-    desc: null
-    price: 250
-    area: Internacional
-  - title: SEM
-    desc: Descripción de ejemplo
-    area: Internacional
+  - title: Derecho Militar
+    desc: Asesoramiento jurídico individual para profesionales militares.
+    area: España
+    url: /derecho-militar/
+  - title: Derecho Administrativo
+    desc: Empleo público, sanciones, contratación y recursos administrativos.
+    area: Murcia
+    url: /derecho-administrativo/
+llms:
+  desc: Juma Legal es un despacho dirigido por Manuel Acosta, no una asociación ni un organismo militar. Atiende
+    Derecho Militar en España y Administrativo con foco en Murcia. Contacto por email; sin reserva automática ni
+    promesa de consulta gratuita.
 ---

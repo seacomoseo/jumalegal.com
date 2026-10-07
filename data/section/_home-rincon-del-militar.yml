@@ -1,0 +1,19 @@
+name: Inicio ➡️ Rincón del Militar
+id: rincon-del-militar
+size: lg
+color: white
+boxes:
+- md: 'Artículos sobre la vida profesional militar.
+
+
+    [Visitar el Rincón del Militar↗](/rincon-del-militar/)'
+  title: Un rincón para entender tus derechos.
+- img: /u/fotos/juma-escritorio-portatil.webp
+  alt: Cuaderno de Juma Legal sobre un escritorio
+  contain: true
+  ratio: 3/4
+box:
+  cols: 2
+  caps: false
+  align: left
+  cols_vs: 1

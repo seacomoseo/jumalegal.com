@@ -1,0 +1,60 @@
+name: Nosotros ➡️ Redes y prensa
+id: redes-prensa
+size: lg
+color: white
+boxes:
+- md: 'Explicaciones sobre situaciones concretas y publicaciones que ayudan a conocer el trabajo de Manuel. Abre
+    cada pieza en su fuente original, sin cargar vídeos automáticamente.
+
+
+    [Instagram ↗](https://www.instagram.com/juma.legal/)
+
+
+    [TikTok ↗](https://www.tiktok.com/@juma.legal)
+
+
+    [Actividad pública en LinkedIn ↗](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/recent-activity/all/)'
+  title: En redes y en prensa. El Derecho, más cerca.
+  boxes:
+  - title: Reducción de jornada e indemnización por residencia
+    md: 'PRENSA · EL FARO DE CEUTA
+
+
+      El Faro de Ceuta recoge una explicación de Manuel publicada en TikTok sobre militares destinados en Ceuta
+      y Melilla.
+
+
+      [Leer publicación ↗](https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/)'
+  - title: Cuando la calificación es desfavorable
+    md: 'INSTAGRAM · IPEC
+
+
+      Información sobre una de las cuestiones habituales de la vida profesional militar.
+
+
+      [Ver en Instagram ↗](https://www.instagram.com/juma.legal/reel/DYScJIytAxx/)'
+  - title: Un destino lejos de la familia
+    md: 'INSTAGRAM · DERECHO MILITAR
+
+
+      Divulgación sobre situaciones que conectan vida familiar y carrera militar.
+
+
+      [Ver en Instagram ↗](https://www.instagram.com/juma.legal/reel/DdZandEKNNv/)'
+  - title: La indemnización por residencia
+    md: 'TIKTOK · RETRIBUCIONES
+
+
+      Una explicación sobre reducción de jornada y retribuciones, también recogida en prensa.
+
+
+      [Ver en TikTok ↗](https://www.tiktok.com/@juma.legal/video/7665747624716176662)'
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

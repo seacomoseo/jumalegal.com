@@ -1,0 +1,24 @@
+name: Rincón del Militar ➡️ Prensa
+id: prensa
+size: lg
+color: white
+boxes:
+- title: En prensa
+  boxes:
+  - title: Reducción de jornada e indemnización por residencia
+    md: 'EL FARO DE CEUTA
+
+
+      La explicación de Manuel sobre militares destinados en Ceuta y Melilla, recogida en prensa.
+
+
+      [Leer en El Faro de Ceuta ↗](https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/)'
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

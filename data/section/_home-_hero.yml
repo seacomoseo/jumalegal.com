@@ -1,0 +1,24 @@
+name: Inicio ➡️ Hero
+id: hero
+color: main-dark
+size: lg
+boxes:
+- title: Tu carrera merece **una defensa sólida.**
+  hs: 0.01
+  sub: Derecho militar y administrativo
+  md: |
+    Asesoramiento jurídico para militares y personas que necesitan defender sus derechos frente a la Administración.
+    Desde Murcia, con atención en toda España.
+
+    [[::↗:: Explorar Derecho Militar]](/derecho-militar/ "[alt]")
+    [[::↗:: Plantear una consulta]](/contacto/)
+  fit: .55
+- img: /u/fotos/manuel-acosta-retrato-principal.webp
+  alt: Manuel Acosta, director de Juma Legal
+  ratio: 3/4
+  side: right
+  fit: .4
+box:
+  gap: 5
+  align_y: center
+  align: left

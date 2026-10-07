@@ -1,0 +1,46 @@
+name: Rincón del Militar ➡️ Artículos
+id: articulos
+size: lg
+color: white
+boxes:
+- md: 'Recursos de carácter general: no sustituyen el estudio individual de una situación ni deben usarse sin verificar
+    vigencia y plazos.'
+  title: Conocimiento que ya puedes consultar.
+  boxes:
+  - title: Exención del IRPF en misiones de la OTAN
+    md: '[ARTÍCULO · Preparado el 06/10/2026**Leer artículo ↗**](/articulo/exencion-irpf-misiones-otan/)'
+    url: /articulo/exencion-irpf-misiones-otan/
+    label: Leer artículo
+  - title: El procedimiento de falta leve en Derecho Militar
+    md: '[ARTÍCULO · 2026-04-06**Leer artículo ↗**](/articulo/procedimiento-falta-leve/)'
+    url: /articulo/procedimiento-falta-leve/
+    label: Leer artículo
+  - title: Sobre la posible implantación de la jornada de 35 horas en las Fuerzas Armadas
+    md: '[ARTÍCULO · 2026-02-09**Leer artículo ↗**](/articulo/jornada-35-horas-fuerzas-armadas/)'
+    url: /articulo/jornada-35-horas-fuerzas-armadas/
+    label: Leer artículo
+  - title: La licencia de estudios en las Fuerzas Armadas y el silencio positivo
+    md: '[ARTÍCULO · 2026-01-08**Leer artículo ↗**](/articulo/licencia-estudios-silencio-positivo/)'
+    url: /articulo/licencia-estudios-silencio-positivo/
+    label: Leer artículo
+  - title: 'El arresto disciplinario por faltas leves: una sanción desfasada en el siglo XXI'
+    md: '[ARTÍCULO · 2025-12-19**Leer artículo ↗**](/articulo/arresto-disciplinario-faltas-leves/)'
+    url: /articulo/arresto-disciplinario-faltas-leves/
+    label: Leer artículo
+  - title: La compensación económica del INVIED al cambiar de destino
+    md: '[ARTÍCULO · 2025-12-17**Leer artículo ↗**](/articulo/compensacion-economica-invied/)'
+    url: /articulo/compensacion-economica-invied/
+    label: Leer artículo
+  - title: 'La jurisdicción militar: conoce a esta gran desconocida'
+    md: '[ARTÍCULO · 2025-12-13**Leer artículo ↗**](/articulo/jurisdiccion-militar/)'
+    url: /articulo/jurisdiccion-militar/
+    label: Leer artículo
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

@@ -1,0 +1,36 @@
+name: Inicio ➡️ Primer contacto
+id: primer-contacto
+size: lg
+color: white
+boxes:
+- md: 'El contacto inicial sirve para valorar tu situación. Si hace falta estudiar el caso en una consulta profesional,
+    te informaremos antes.
+
+
+    [Cómo contactar↗](/contacto/)'
+  title: El primer paso, sin malentendidos.
+  boxes:
+  - title: Cuéntanos lo esencial
+    md: '**01**
+
+
+      Escribe un resumen breve de tu asunto por email. No envíes documentación sensible en este primer contacto.'
+  - title: Valoramos el asunto
+    md: '**02**
+
+
+      Revisamos si podemos ayudarte y cuál sería el siguiente paso razonable.'
+  - title: Decides con información
+    md: '**03**
+
+
+      Si necesitas una consulta jurídica de estudio, te explicaremos sus condiciones antes de concertarla.'
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

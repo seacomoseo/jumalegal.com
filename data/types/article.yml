@@ -1,0 +1,14 @@
+title: Artículos
+base: article
+weight: 2
+tpl:
+  list:
+    fade: hide
+    icon: hide
+    shade: true
+    ratio: 16/9
+    inset: true
+    align: left
+    btn: hide
+    tags:
+    - type: date

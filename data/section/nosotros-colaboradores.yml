@@ -1,0 +1,67 @@
+name: Nosotros ➡️ Colaboradores
+id: colaboradores
+size: lg
+color: white
+boxes:
+- md: Una red de profesionales y despachos independientes que complementa el trabajo de Juma según las necesidades
+    de cada caso, con Manuel como referencia para tu consulta.
+  title: Especialidades que suman. Manuel al frente de tu asunto.
+  boxes:
+  - title: Ángeles Martínez Cudero
+    img: /u/colaboradores/martinez-cudero.png
+    alt: Ángeles Martínez Cudero
+    contain: true
+    md: 'Abogada colaboradora
+
+
+      Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.'
+  - title: Apestegui Abogados
+    img: /u/colaboradores/apestegui.png
+    alt: Apestegui Abogados
+    contain: true
+    md: 'Despacho colaborador
+
+
+      Colaboración en asuntos de Derecho Militar y Guardia Civil.'
+  - title: ABYTE
+    img: /u/colaboradores/abyte.png
+    alt: ABYTE
+    contain: true
+    md: 'Derecho Administrativo
+
+
+      Colaboración en Derecho Administrativo y Urbanismo.'
+  - title: EVALUO
+    img: /u/colaboradores/evaluo.png
+    alt: EVALUO
+    contain: true
+    md: 'Valoración del daño corporal
+
+
+      Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones
+      psicofísicas (EICP).'
+  - title: IPFLegal
+    img: /u/colaboradores/ipflegal.png
+    alt: IPFLegal
+    contain: true
+    md: 'Instituto de Psicología Forense
+
+
+      Colaboración en psicología forense y apoyo especializado.'
+  - title: Fiscalisy
+    img: /u/colaboradores/fiscalisy.png
+    alt: Fiscalisy
+    contain: true
+    md: 'Asesoramiento fiscal
+
+
+      Asesoría fiscal colaboradora de Juma Legal.'
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

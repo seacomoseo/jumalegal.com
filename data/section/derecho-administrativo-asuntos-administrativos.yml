@@ -1,0 +1,35 @@
+name: Derecho Administrativo ➡️ Asuntos administrativos
+id: asuntos-administrativos
+size: lg
+color: white
+boxes:
+- md: 'Del empleo público a la contratación: cada materia exige estudiar hechos, documentos, vía procedente y plazo.'
+  title: Decisiones públicas. Consecuencias reales.
+  boxes:
+  - title: Responsabilidad patrimonial
+    md: Reclamaciones por daños derivados del funcionamiento de las Administraciones Públicas.
+  - title: Contratación pública
+    md: Licitaciones, adjudicaciones, ejecución y conflictos de contratos con el sector público.
+  - title: Urbanismo
+    md: Licencias, disciplina urbanística, planeamiento y procedimientos sobre suelo y edificación.
+  - title: Empleo público
+    md: Carrera, derechos, retribuciones y situaciones de personal funcionario, estatutario y laboral.
+  - title: Oposiciones
+    md: Incidencias en bases, valoraciones, exclusiones y procesos selectivos.
+  - title: Sanciones administrativas
+    md: Defensa frente a procedimientos sancionadores y resoluciones de la Administración.
+  - title: Recursos administrativos
+    md: Impugnación de actos por las vías administrativas que correspondan.
+  - title: Contencioso-administrativo
+    md: Defensa judicial frente a resoluciones y actuaciones administrativas.
+  - title: Otras consultas
+    md: Cuestiones sobre tus derechos en las relaciones con la Administración.
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

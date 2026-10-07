@@ -4,10 +4,10 @@ tpl:
     color: light
   menu:
     logo: true
-    logo_align: center
+    logo_align: left
     sticky: auto
-    clear: true
     size: lg
+  callnow: custom
   section:
   - size: sm
   sections:
@@ -23,15 +23,18 @@ tpl:
   - file: base-rel
   list:
     cols: 3
-    color: white
-    icon: hide
-    shade: true
-    ratio: 16/9
-    inset: true
-    align: left
-    btn: hide
-    tags:
-    - type: date
-    - type: address
+    cols_vs: 2
+    color: such
+    fade: main-light
+    fade_to: t
+    align: center
+    img: hide
+    icon: insert_drive_file
+    icon_pos: top
+    icon_size: 5
+    hs: 5
+    hs_vs: 5.5
+    md: hide
+    btn: cta
   rel:
     slider: true

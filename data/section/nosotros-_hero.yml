@@ -1,0 +1,24 @@
+name: Nosotros ➡️ Hero
+id: hero
+size: lg
+color: light
+boxes:
+- md: 'NOSOTROS / JUMA LEGAL
+
+
+    Juma Legal trabaja desde Murcia con una idea sencilla: que quien nos consulta comprenda el camino que tiene
+    por delante.
+
+
+    [Hablemos↗](/contacto/)'
+  title: La persona y el criterio detrás del despacho.
+  hn: h1
+- img: /u/fotos/manuel-acosta-retrato-principal.webp
+  alt: Manuel Acosta, director de Juma Legal
+  contain: true
+  ratio: 3/4
+box:
+  cols: 2
+  caps: false
+  align: left
+  cols_vs: 1

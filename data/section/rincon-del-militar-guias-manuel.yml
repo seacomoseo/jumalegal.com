@@ -1,0 +1,35 @@
+name: Rincón del Militar ➡️ Guías de Manuel
+id: guias-manuel
+size: lg
+color: white
+boxes:
+- md: Documentos originales del autor para consultar y descargar. Información general que no sustituye el asesoramiento
+    sobre tu caso.
+  title: Guías prácticas de Manuel Acosta
+  boxes:
+  - title: Plazos de incorporación a un nuevo destino
+    md: 'MANUEL ACOSTA · PDF
+
+
+      Resumen práctico de plazos, cese e incorporación.
+
+
+      [Consultar PDF ↗](/u/recursos/plazos-incorporacion-nuevo-destino.pdf) · [Descargar PDF ↓](/u/recursos/plazos-incorporacion-nuevo-destino.pdf)'
+  - title: Modificación de datos de la compensación económica del INVIED
+    md: 'MANUEL ACOSTA · PDF
+
+
+      Instrucciones con capturas de la plataforma para realizar el trámite.
+
+
+      [Consultar PDF ↗](/u/recursos/modificacion-datos-compensacion-economica-invied.pdf) · [Descargar
+      PDF ↓](/u/recursos/modificacion-datos-compensacion-economica-invied.pdf)'
+  box:
+    cols: 3
+    cols_vs: 1
+    align: left
+    caps: false
+box:
+  cols: 1
+  caps: false
+  align: left

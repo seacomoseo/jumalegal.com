@@ -1,0 +1,18 @@
+name: Nosotros ➡️ Militares Con Futuro
+id: militares-con-futuro
+size: lg
+color: white
+boxes:
+- img: /u/colaboradores/mcf.png
+  alt: Asociación Profesional Militares Con Futuro — logo actualizado
+  contain: true
+  md: 'OTRAS RELACIONES PROFESIONALES
+
+
+    Manuel Acosta presta asesoramiento jurídico a una de las principales asociaciones de militares del panorama
+    nacional: Militares Con Futuro. Juma Legal también atiende asuntos particulares de militares y miembros de la
+    Guardia Civil.'
+box:
+  cols: 1
+  caps: false
+  align: left

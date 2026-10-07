@@ -1,0 +1,10 @@
+title: Autores
+base: author
+weight: 1
+tax_of:
+- name: article
+  schema: author
+tpl:
+  list:
+    img: /u/base/poster-sq.svg
+    icon: hide
