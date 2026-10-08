@@ -1,11 +1,10 @@
 name: Inicio ➡️ Hero
 id: hero
 color: main-dark
-size: lg
 boxes:
-- title: Tu carrera merece **una defensa sólida.**
+- sub: Derecho Militar y Administrativo
+  title: Tu carrera merece **una defensa sólida.**
   hs: 0.01
-  sub: Derecho militar y administrativo
   md: |
     Asesoramiento jurídico para militares y personas que necesitan defender sus derechos frente a la Administración.
     Desde Murcia, con atención en toda España.

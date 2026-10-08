@@ -68,37 +68,47 @@ h6, .h6,
   }
 }
 
-// Hero 
 @mixin show-from($delay) {
   animation: show-from .5s (.25 + .125s * $delay) both;
 }
-#body-home #hero {
-  overflow: hidden;
-  .img        { @include show-from(0); --show-from: scale(3); }
-  .box__title { @include show-from(1); }
-  .sub        { @include show-from(2); }
-  .md p       { @include show-from(3); }
-  .md .btns   { @include show-from(4); }
-  .img {
-    margin-bottom: -5em;
-    @media (min-width: $viewport-xl) {
-      margin-top: -5em;
-      img {
-        --mask-img: linear-gradient(to right, transparent 0%, black 15%);
-        -webkit-mask-image: var(--mask-img);
-        mask-image: var(--mask-img);
-      }
+// Home
+#body-home {
+  // Hero
+  #hero {
+    overflow: hidden;
+    .img        { @include show-from(0); --show-from: scale(3); }
+    .box__title { @include show-from(1); }
+    .sub        { @include show-from(2); }
+    .md p       { @include show-from(3); }
+    .md .btns   { @include show-from(4); }
+    .img        { margin-bottom: -5em; }
+  }
+  // Áreas
+  #areas-derecho {
+    .box__title {
+      margin-block: 1.5rem;
+    }
+    .box__btn {
+      margin-top: 1.5rem;
+      width: auto;
     }
   }
 }
 
-// Áreas
-#areas-derecho {
-  .box__title {
-    margin-block: 1.5rem;
-  }
-  .box__btn {
-    margin-top: 1.5rem;
-    width: auto;
+
+// Contacto
+#body-contacto {
+  #hero {
+    .box--2 {
+      margin-bottom: -5em;
+      @media (min-width: $viewport-xl) {
+        margin-top: -5em;
+        .bg-fig {
+          --mask-img: linear-gradient(to right, transparent 0%, black 50%);
+          -webkit-mask-image: var(--mask-img);
+          mask-image: var(--mask-img);
+        }
+      }
+    }
   }
 }
