@@ -4,13 +4,12 @@ color: main-light
 size: lg
 boxes:
 - title: Cuando una decisión afecta a tu carrera, necesitas **entender cada paso.**
-  hs: 1
-  fit: 1.1
+  hs: .7
+  hs_vs: .05
 - sub: El enfoque Juma
   md: |
-    Asuntos que requieren conocimiento del ámbito militar y de los procedimientos administrativos. Escuchamos primero,
-    evaluamos el caso y explicamos cómo podemos ayudarte antes de concertar una consulta profesional.
-  fit: 0.9
+    Asuntos que requieren conocimiento del ámbito militar y de los procedimientos administrativos.
+    Escuchamos primero, evaluamos el caso y explicamos cómo podemos ayudarte antes de concertar una consulta profesional.
 box:
   cols: 2
   gap: 5

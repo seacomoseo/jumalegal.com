@@ -65,3 +65,4 @@ boxes:
   label: Ver todas las reseñas en Google
   pin: ↗
   align: center
+  btn: none

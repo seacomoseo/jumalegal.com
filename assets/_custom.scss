@@ -92,6 +92,26 @@ h6, .h6,
   color: var(--alt-text);
 }
 
+.box__btn,
+.form__btn {
+  width: auto;
+  margin-right: auto;
+}
+.box__btn.link {
+  font-weight: $font-weight-bold-cursive;
+  color: var(--hover);
+  background-size: 100% 100%;
+  padding-bottom: .5em;
+  .icon--txt {
+    margin-left: .125em;
+    font-size: 1.5em;
+  }
+}
+.link:is(:hover, :focus, .box--go:where(:hover, :focus) *) {
+  color: var(--alt-text);
+  background-size: 0 100%;
+}
+
 @mixin show-from($delay) {
   animation: show-from .5s (.25 + .125s * $delay) both;
 }

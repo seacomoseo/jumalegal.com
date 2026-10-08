@@ -11,8 +11,10 @@ boxes:
 
     No hay una solución automática para una carrera profesional. Primero se entiende el problema; después, se define
     el siguiente paso.
-
-    [[::↗:: Conoce a Manuel]](/nosotros/ "[such]")
+  url: /nosotros/
+  label: Conoce a Manuel
+  pin: ↗
+  btn: such
 - class: dispel dispel--right
   bi: /u/fotos/manuel-acosta-retrato-informal.webp
   alt: Retrato de Manuel Acosta

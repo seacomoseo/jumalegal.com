@@ -6,9 +6,12 @@ boxes:
   title: Cuéntanos lo esencial. **Nosotros te orientamos sobre el siguiente.**
   hs: 0.01
   md: |
-    El primer contacto permite valorar el asunto. Si es necesario estudiar tu caso en una consulta profesional, te informaremos de sus condiciones antes de concertarla.
-
-    [[::↗:: info@jumalegal.com]](info@jumalegal.com "[swap ga4]")
+    El primer contacto permite valorar el asunto.
+    Si es necesario estudiar tu caso en una consulta profesional,
+    te informaremos de sus condiciones antes de concertarla.
+  url: '#primer-mensaje'
+  label: Cómo contactar
+  pin: ↗
 - class: dispel
   bi: /u/fotos/manuel-acosta-llamada-primer-plano.webp
   alt: Manuel Acosta, director de Juma Legal

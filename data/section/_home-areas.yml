@@ -33,6 +33,5 @@ boxes:
     gap: 1
     pd_vs: 2
     hs: .03
-    # btn: none
     label: Conocer el área
     pin: ↗

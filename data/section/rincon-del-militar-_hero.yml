@@ -1,13 +1,26 @@
 name: Rincón del Militar ➡️ Hero
 id: hero
-size: md
-color: light
+color: main-light
 boxes:
-- md: 'Artículos y recursos sobre cuestiones habituales de la carrera militar. Información general: verifica la
-    vigencia y los plazos aplicables a tu situación.'
-  title: Información para avanzar con más criterio.
-  hn: h1
+- sub: Recursos / Rincón del Militar
+  title: Información para avanzar **con más criterio.**
+  hs: 0.01
+  md: |
+    Artículos y recursos sobre cuestiones habituales de la carrera militar.
+    Información general: verifica la vigencia y los plazos aplicables a tu situación.
+  url: '#more'
+  label: Explorar
+  pin: ↗
+- class: dispel
+  bi: /u/fotos/manuel-acosta-llamada-primer-plano.webp
+  alt: Manuel Acosta, director de Juma Legal
+  rate: 1/1
+  scroll: soft
+  mt: -5
+  mb_vs: -5
 box:
-  cols: 1
-  caps: false
+  cols: 2
+  gap: 5
+  gap_vs: 2
   align: left
+  sides: true
