@@ -1,59 +1,67 @@
 name: Inicio ➡️ Reseñas
 id: resenas
-size: lg
-color: white
-boxes:
-- md: 'OPINIONES DE CLIENTES
-
-
-    Selección de reseñas públicas de Google, consultadas el 1 de octubre de 2026. Cada opinión refleja una experiencia
-    particular, no una garantía de resultado.
-
-
-    [Ver todas las reseñas en Google↗](https://maps.google.com/maps?cid=11524462493824631)'
-  title: Experiencias reales. En sus propias palabras.
-  boxes:
-  - md: '> Contar con su asesoramiento ha sido la mejor decisión. Más allá de su impecable profesionalidad y amplio
-      conocimiento legal, destaco su empatía y el interés real que pone en ayudar a sus clientes. Se involucra al
-      100%, responde siempre con rapidez y transmite una seguridad absoluta. Agradezco enormemente su dedicación
-      y excelente trabajo.
-
-
-      **Jesica Herrera Benítez**01/10/2026[Reseña en Google ↗](https://maps.google.com/maps?cid=11524462493824631)'
-  - md: '> Un profesional de pies a cabeza! Tuve un problema muy importante que me querían echar de una forma injusta
-      y totalmente despreciable y desproporcionada y consiguió revertir la situación con lo complicada que era y
-      me hizo conservar mi puesto. Lo recomiendo 100%, es todo un profesional.
-
-
-      **Ángel Rubio 13**01/10/2026[Reseña en Google ↗](https://maps.google.com/maps?cid=11524462493824631)'
-  - md: '> Muchísimas gracias a Manuel por todo el trabajo y la paciencia para llevar mi caso. Lo recomiendo 100%
-      además de un gran profesional es una grandísima persona.
-
-      > Gracias de corazón.
-
-
-      **Isopi**15/07/2026[Reseña en Google ↗](https://maps.google.com/maps?cid=11524462493824631)'
-  - md: '> Muy buen trato con Manuel que me ayudó en el proceso en cada momento. Me quedo satisfecho del trabajo
-      realizado. Gracias por todo.
-
-
-      **Emilio Marín**08/01/2026[Reseña en Google ↗](https://maps.google.com/maps?cid=11524462493824631)'
-  - md: '> Manuel y su equipo su equipo se preocupan en todo momento por tu caso, responden con rapidez a pesar
-      de la alta carga de trabajo, resuelven todas tus incógnitas con eficacia y mi experiencia personal con ellos
-      ha sido, y es, muy positiva, totalmente recomendable!!!
-
-
-      **Omar Olmos**30/12/2025[Reseña en Google ↗](https://maps.google.com/maps?cid=11524462493824631)'
-  - md: '> Gran trato y profesionalidad, expertos en derecho administrativo.
-
-
-      **Francisco Javier Cánovas Sánchez**21/12/2025[Reseña en Google ↗](https://maps.google.com/maps?cid=11524462493824631)'
-  box:
-    cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
+color: light
 box:
-  cols: 1
-  caps: false
   align: left
+boxes:
+- sub: Opiniones de clientes
+- boxes:
+  - title: Experiencias reales. <br> **En sus propias palabras.**
+    hs: .02
+    fit: 1.2
+  - md: Selección de reseñas públicas de Google, consultadas el 1 de octubre de 2026. Cada opinión refleja una experiencia particular, no una garantía de resultado.
+    fit: .8
+  box:
+    cols: 2
+    gap: 5
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  mb_vs: 2
+  reviews:
+  - title: Jesica H.
+    md: |
+        Contar con su asesoramiento ha sido la mejor decisión.
+
+        Más allá de su impecable profesionalidad y amplio conocimiento legal, destaco su empatía y el interés real que pone en ayudar a sus clientes.
+
+        Se involucra al 100%, responde siempre con rapidez y transmite una seguridad absoluta.
+
+        Agradezco enormemente su dedicación y excelente trabajo.
+  - title: Ángel R.
+    md: |
+        Un profesional de pies a cabeza! Tuve un problema muy importante que me querían echar de una forma injusta y totalmente despreciable y desproporcionada y consiguió revertir la situación con lo complicada que era y me hizo conservar mi puesto.
+
+        Lo recomiendo 100%, es todo un profesional.
+  - title: Isopi
+    md: |
+        Muchísimas gracias a Manuel por todo el trabajo y la paciencia para llevar mi caso.
+
+        Lo recomiendo 100% además de un gran profesional es una grandísima persona.
+
+        Gracias de corazón.
+  - title: Emilio M.
+    md: |
+        Muy buen trato con Manuel que me ayudó en el proceso en cada momento.
+
+        Me quedo satisfecho del trabajo realizado.
+
+        Gracias por todo.
+  - title: Omar O.
+    md: |
+        Manuel y su equipo su equipo se preocupan en todo momento por tu caso, responden con rapidez a pesar de la alta carga de trabajo, resuelven todas tus incógnitas con eficacia y mi experiencia personal con ellos ha sido, y es, muy positiva, totalmente recomendable!!!
+  - title: Francisco C.
+    md: |
+        Gran trato y profesionalidad, expertos en derecho administrativo.
+  review:
+    cols: 3
+    color: such
+    slider: true
+    time: 8
+    icon: keyboard_double_arrow_left
+    icon_right: keyboard_double_arrow_right
+- url: https://maps.google.com/maps?cid=11524462493824631
+  label: Ver todas las reseñas en Google
+  pin: ↗
+  align: center

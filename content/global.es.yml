@@ -19,7 +19,7 @@ callnows:
 - type: custom
   url: /contacto/
   label: Plantea tu caso
-  icon: mail
+  icon: alternate_email
   ga4: false
 footer:
   color: dark
@@ -34,7 +34,7 @@ footer:
       [[::brand:instagram:: Instagram]](https://www.instagram.com/juma.legal/ "[dot nofollow]")
       [[::brand:tiktok:: TikTok]](https://www.tiktok.com/@juma.legal "[dot nofollow]")
       [[::brand:linkedin-in:: Linkedin]](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/ "[dot nofollow]")
-  # - node: div
+  - node: div
   - md: |
       - ::none:: [Derecho Militar](/derecho-militar/)
       - ::none:: [Derecho Administrativo](/derecho-administrativo/)

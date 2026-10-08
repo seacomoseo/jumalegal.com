@@ -1,11 +1,13 @@
 icons:
   fill: false
-  weight: 100
+  weight: 200
   grade: 0
   optical: 24
   style: outlined
   def:
     play: svg:youtube-iframe
+    review_star: ★
+    quote: keyboard_double_arrow_left
 fonts:
   base:
     family: Outfit
@@ -76,7 +78,7 @@ btns:
     bold: false
     caps: false
 inputs:
-  fill: false
+  fill: true
   labels: in
 shadow:
   left: 0

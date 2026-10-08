@@ -1,5 +1,6 @@
 # TO DO
 
+- Home > Rincón: imagen a horizontal
 - Artículos relacionados
 - Página de `author`
 - Optimizar descripción y servicios en GBP

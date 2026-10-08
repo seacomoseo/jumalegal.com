@@ -3,15 +3,14 @@ id: contacto
 size: lg
 color: white
 boxes:
-- md: 'HABLEMOS CON CLARIDAD
-
-
-    Un primer mensaje basta para valorar si podemos ayudarte. La consulta jurídica de estudio se acuerda aparte.
-
-
-    [Plantear mi asunto↗](/contacto/)'
-  title: ¿Necesitas orientación sobre tu situación?
+- sub: Hablemos con claridad
+  title: ¿Necesitas orientación sobre <br> **tu situación?**
+  hs: .02
+  md: |
+    Un primer mensaje basta para valorar si podemos ayudarte. \
+    La consulta jurídica de estudio se acuerda aparte.
+  url: /contacto/
+  label: Plantear mi asunto
+  pin: ↗
 box:
-  cols: 1
-  caps: false
-  align: left
+  align: center

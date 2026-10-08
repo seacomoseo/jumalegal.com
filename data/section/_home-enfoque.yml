@@ -14,4 +14,5 @@ boxes:
 box:
   cols: 2
   gap: 5
+  gap_vs: 3
   align: left

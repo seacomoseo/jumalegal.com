@@ -8,15 +8,17 @@ boxes:
   md: |
     El primer contacto permite valorar el asunto. Si es necesario estudiar tu caso en una consulta profesional, te informaremos de sus condiciones antes de concertarla.
 
-    [[::↗:: info@jumalegal.com]](info@jumalegal.com "[swap]")
-- bi: /u/fotos/manuel-acosta-llamada.webp
+    [[::↗:: info@jumalegal.com]](info@jumalegal.com "[swap ga4]")
+- class: dispel
+  bi: /u/fotos/manuel-acosta-llamada-primer-plano.webp
   alt: Manuel Acosta, director de Juma Legal
   rate: 1/1
-  side: right
   scroll: soft
+  mt: -5
+  mb_vs: -5
 box:
   cols: 2
   gap: 5
   gap_vs: 2
-  align_y: center
   align: left
+  sides: true

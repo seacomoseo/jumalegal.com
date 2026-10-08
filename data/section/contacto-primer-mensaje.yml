@@ -1,42 +1,63 @@
 name: Contacto ➡️ Primer mensaje
 id: primer-mensaje
-size: lg
 color: white
 boxes:
-- title: Qué conviene contarnos.
-  boxes:
-  - title: Primer contacto por correo
-    md: 'UN PRIMER MENSAJE ES SUFICIENTE
+- sub: Un primer mensaje es suficiente
+  title: Qué conviene **contarnos.**
+  hs: .02
+  md: |
+    - Tu nombre y un teléfono de contacto.
+    - El área del asunto: militar o administrativo.
+    - Un resumen breve de lo ocurrido.
+    - Si has recibido una notificación y existe un plazo próximo.
 
+    *No envíes por este primer contacto documentación confidencial, datos de salud ni información de terceros. \
+    El envío no suspende plazos ni implica aceptación del encargo.*
 
-      - Tu nombre y un teléfono de contacto.
+    - ::txt:Ámbito:: Atención en toda España
+    - ::txt:Presencial:: Murcia · Solo con cita previa
+    - ::txt:Lunes - Jueves:: 10:00 - 14:00 y 16:00 - 18:00
+    - ::txt:Viernes:: 08:00 - 14:00
 
-      - Un resumen breve de lo ocurrido.
-
-      - El área del asunto: militar o administrativo.
-
-      - Si has recibido una notificación y existe un plazo próximo.
-
-
-      No envíes por este primer contacto documentación confidencial, datos de salud ni información de terceros.
-      El envío no suspende plazos ni implica aceptación del encargo.
-
-
-      **Correo**[info@jumalegal.com ↗](mailto:info@jumalegal.com)**Ámbito**Murcia · Atención en toda España**Atención
-      presencial**Murcia · Solo con cita previamente acordada con Manuel. Confirma con él la dirección y el acceso
-      antes de acudir.**Horario**L–J 10:00–14:00 y 16:00–18:00 · V 08:00–14:00
-
-
-      El formulario no está habilitado en esta vista previa. No recoge datos ni realiza envíos.
-
-
-      [Escribir a info@jumalegal.com](mailto:info@jumalegal.com)'
-  box:
-    cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
+    [[::↗:: info@jumalegal.com]](info@jumalegal.com "[swap ga4]")
+- sub: Formulario
+  title: Una vía de contacto a tu medida.
+  form:
+    icon: ↗
+  inputs:
+  - type: text
+    name: Nombre y apellidos
+    req: true
+    # icon: person
+  - type: phone
+    name: Teléfono
+    req: true
+    # icon: phone
+  - type: mail
+    name: Email
+    label: Correo electrónico
+    req: true
+    # icon: mail
+  - type: select
+    name: Área
+    req: true
+    x: true
+    # icon: balance
+    items:
+    - label: Militar
+    - label: Administrativo
+    - label: Otro
+  - type: area
+    name: Mensaje
+    label: Asunto y mensaje breve
+    req: true
+    # icon: message
+  color: main-light
+  pd: 2
+  pd_vs: 1.5
 box:
-  cols: 1
-  caps: false
+  cols: 2
+  gap: 5
+  gap_vs: 3
+  align_y: top
   align: left

@@ -1,12 +1,10 @@
 name: Inicio ➡️ Áreas de práctica
 id: areas
-size: lg
 color: white
 box:
-  gap: 3
   align: left
 boxes:
-- sub: 01 *Áreas de práctica*
+- sub: 01 **Áreas de práctica**
 - boxes:
   - title: Una práctica enfocada. **Dos áreas conectadas.**
     hs: .03
@@ -14,9 +12,11 @@ boxes:
     fit: .8
   box:
     cols: 2
+    gap_vs: 1
     align_y: bottom
     align_x: space-between
 - id: areas-derecho
+  mt_vs: 2
   boxes:
   - title: Derecho <br> Militar
     sub: 01 / Especialidad Principal
@@ -31,7 +31,7 @@ boxes:
   box:
     cols: 2
     gap: 1
-    pd: 2
+    pd_vs: 2
     hs: .03
     # btn: none
     label: Conocer el área

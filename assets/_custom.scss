@@ -2,6 +2,24 @@
 @use "../themes/sansoul/assets/css/mixins" as *;
 
 // General
+.box__sub:has(strong) {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  width: 100%;
+  opacity: .75;
+  strong {
+    color: var(--main-text);
+  }
+  &::after {
+    content: '';
+    height: 1px;
+    flex: 1;
+    background: var(--text);
+    margin-left: 1em;
+    opacity: .25;
+  }
+}
 .sub {
   @include font-base-bold;
   text-transform: uppercase;
@@ -35,6 +53,7 @@ h6, .h6,
 }
 .bg-white,
 .bg-light,
+.bg-alt-light,
 .bg-main-light,
 .bg-cta-light {
   --text: #506357;
@@ -53,6 +72,7 @@ h6, .h6,
 }
 .bg-black,
 .bg-dark,
+.bg-alt-dark,
 .bg-main-dark,
 .bg-cta-dark {
   --text: #e0e8df;
@@ -68,9 +88,14 @@ h6, .h6,
   }
 }
 
+.review__stars {
+  color: var(--alt-text);
+}
+
 @mixin show-from($delay) {
   animation: show-from .5s (.25 + .125s * $delay) both;
 }
+
 // Home
 #body-home {
   // Hero
@@ -81,34 +106,33 @@ h6, .h6,
     .sub        { @include show-from(2); }
     .md p       { @include show-from(3); }
     .md .btns   { @include show-from(4); }
-    .img        { margin-bottom: -5em; }
-  }
-  // Áreas
-  #areas-derecho {
-    .box__title {
-      margin-block: 1.5rem;
-    }
-    .box__btn {
-      margin-top: 1.5rem;
-      width: auto;
-    }
   }
 }
 
+// Áreas
+#areas-derecho {
+  .box__title {
+    margin-block: 1.5rem;
+  }
+  .box__btn {
+    margin-top: 1.5rem;
+    width: auto;
+  }
+}
 
-// Contacto
-#body-contacto {
-  #hero {
-    .box--2 {
-      margin-bottom: -5em;
-      @media (min-width: $viewport-xl) {
-        margin-top: -5em;
-        .bg-fig {
-          --mask-img: linear-gradient(to right, transparent 0%, black 50%);
-          -webkit-mask-image: var(--mask-img);
-          mask-image: var(--mask-img);
-        }
-      }
-    }
+// Dispel
+.dispel {
+  --mask-img: linear-gradient(transparent 0%, black 15%);
+  .bg-fig {
+    -webkit-mask-image: var(--mask-img);
+    mask-image: var(--mask-img);
+  }
+}
+@media (min-width: $viewport-xl) {
+  .dispel {
+    --mask-img: linear-gradient(to right, transparent 0%, black 25%);
+  }
+  .dispel--right {
+    --mask-img: linear-gradient(to left, transparent 0%, black 25%);
   }
 }

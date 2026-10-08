@@ -1,36 +1,37 @@
 name: Inicio ➡️ Primer contacto
 id: primer-contacto
-size: lg
-color: white
+color: light
+box:
+  align: left
 boxes:
-- md: 'El contacto inicial sirve para valorar tu situación. Si hace falta estudiar el caso en una consulta profesional,
-    te informaremos antes.
-
-
-    [Cómo contactar↗](/contacto/)'
-  title: El primer paso, sin malentendidos.
+- sub: 03 **Cómo empezamos**
+- boxes:
+  - title: El primer paso, **sin malentendidos.**
+    hs: .03
+    fit: 1.2
+  - md: El contacto inicial sirve para valorar tu situación. Si hace falta estudiar el caso en una consulta profesional, te informaremos antes.
+    fit: .8
+  box:
+    cols: 2
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  mb_vs: 2
   boxes:
-  - title: Cuéntanos lo esencial
-    md: '**01**
-
-
-      Escribe un resumen breve de tu asunto por email. No envíes documentación sensible en este primer contacto.'
-  - title: Valoramos el asunto
-    md: '**02**
-
-
-      Revisamos si podemos ayudarte y cuál sería el siguiente paso razonable.'
-  - title: Decides con información
-    md: '**03**
-
-
-      Si necesitas una consulta jurídica de estudio, te explicaremos sus condiciones antes de concertarla.'
+  - sub: '01'
+    title: Cuéntanos lo esencial
+    md: Escribe un resumen breve de tu asunto por email. No envíes documentación sensible en este primer contacto.
+  - sub: '02'
+    title: Valoramos el asunto
+    md: Revisamos si podemos ayudarte y cuál sería el siguiente paso razonable.
+  - sub: '03'
+    title: Decides con información
+    md: Si necesitas una consulta jurídica de estudio, te explicaremos sus condiciones antes de concertarla.
   box:
     cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
-box:
-  cols: 1
-  caps: false
-  align: left
+    gap_vs: 3
+    hs: 4
+- url: /contacto/
+  label: Cómo contactar
+  pin: ↗
