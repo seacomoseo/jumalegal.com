@@ -1,6 +1,6 @@
 name: Nosotros ➡️ Hero
 id: hero
-color: light
+color: main-dark
 boxes:
 - sub: Nosotros / Juma Legal
   title: La persona y **el criterio detrás del despacho.**
@@ -9,13 +9,16 @@ boxes:
     Juma Legal trabaja desde Murcia con una idea sencilla: que quien nos consulta comprenda el camino que tiene por delante.
 
     [[::↗:: Hablemos]](/contacto/)
-- img: /u/fotos/manuel-acosta-llamada.webp
-  alt: Manuel Acosta, director de Juma Legal
-  ratio: 3/4
-  side: right
+- class: dispel
+  bi: /u/fotos/manuel-acosta-retrato-informal.webp
+  alt: Retrato de Manuel Acosta
+  rate: 1/1
+  scroll: soft
+  mt: -5
+  mb_vs: -5
 box:
   cols: 2
   gap: 5
   gap_vs: 2
-  align_y: center
   align: left
+  sides: true

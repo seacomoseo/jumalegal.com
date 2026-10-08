@@ -15,12 +15,17 @@ boxes:
     align_y: bottom
     align_x: space-between
 - mt_vs: 2
+  mb_vs: 2
   list:
     type: article
+    max: 12
   box:
     cols: 4
-    shade: false
-    label: Leer artículo
-    pin: ↗
-    btn: none
+    cols_vs: 1.5
+    slider: true
+- url: /articulos/
+  label: Ver todos los artículos
+  pin: ↗
+  align: center
+  btn: none
 

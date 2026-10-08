@@ -12,9 +12,8 @@ boxes:
   label: Explorar
   pin: ↗
 - class: dispel
-  bi: /u/fotos/manuel-acosta-llamada-primer-plano.webp
+  bi: /u/fotos/juma-escritorio-portatil.webp
   alt: Manuel Acosta, director de Juma Legal
-  rate: 1/1
   scroll: soft
   mt: -5
   mb_vs: -5

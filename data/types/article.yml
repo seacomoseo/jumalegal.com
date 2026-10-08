@@ -3,12 +3,16 @@ base: article
 weight: 2
 tpl:
   list:
+    cols_vs: 1
+    pd_vs: 1.5
     fade: hide
     icon: hide
-    shade: true
-    ratio: 16/9
-    inset: true
+    # shade: true
+    # ratio: 16/9
+    # inset: true
     align: left
-    btn: hide
+    label: Leer artículo
+    pin: ↗
+    btn: none
     tags:
     - type: date
