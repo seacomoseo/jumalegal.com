@@ -22,8 +22,9 @@
     order: 4;
   }
 }
-#prensa {
+.prensa {
   .box__sub:has(strong) {
+    flex-wrap: wrap;
     gap: .25em;
     &::before {
       content: "·";
@@ -73,17 +74,17 @@ h6, .h6,
 .bg-cta-light {
   --text: #506357;
   // --alt-text: #a27a4b;
-  h1, .h1,
-  h2, .h2,
-  h3, .h3,
-  h4, .h4,
-  h5, .h5,
-  h6, .h6,
-  .h {
-    strong {
-      font-weight: inherit;
-    }
-  }
+  // h1, .h1,
+  // h2, .h2,
+  // h3, .h3,
+  // h4, .h4,
+  // h5, .h5,
+  // h6, .h6,
+  // .h {
+  //   strong {
+  //     font-weight: inherit;
+  //   }
+  // }
 }
 .bg-black,
 .bg-dark,

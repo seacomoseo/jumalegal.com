@@ -1,70 +1,56 @@
 name: Rincón del Militar ➡️ Obras de referencia
 id: referencias
-size: lg
-color: white
+box:
+  align: left
 boxes:
-- md: Selección de fuentes externas para ampliar información. Conservan su autoría y fecha de edición; no son guías
-    elaboradas por Juma Legal ni garantizan por sí mismas la vigencia de todos sus contenidos.
-  title: Guías y obras de referencia
+# - sub: 01 **Disponible ahora**
+- boxes:
+  - title: Guías y obras **de referencia.**
+    hs: .03
+    hs_vs: .05
+  - md: Selección de fuentes externas para ampliar información.
+      Conservan su autoría y fecha de edición; no son guías elaboradas por
+      Juma Legal ni garantizan por sí mismas la vigencia de todos sus contenidos.
+    fit: .8
+  box:
+    cols: 2
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  class: prensa
   boxes:
   - title: Conciliación en las Fuerzas Armadas
-    md: 'Ministerio de Defensa · septiembre de 2026
-
-
-      Guía orientativa de permisos, vacaciones y otras medidas de conciliación. La portada indica septiembre de
-      2026 aunque el nombre del archivo oficial conserva marzo de 2025.
-
-
-      [Consultar fuente oficial ↗](https://ejercito.defensa.gob.es/documents/2155244/2175232/GUIA+CONCILIACION+MARZO+2025.pdf/d06ed44e-b005-c102-b439-e4976fe3013d?t=1753952962260)'
+    sub: Ministerio de Defensa **septiembre de 2026**
+    md: Guía orientativa de permisos, vacaciones y otras medidas de conciliación. La portada indica septiembre de 2026 aunque el nombre del archivo oficial conserva marzo de 2025.
+    url: https://ejercito.defensa.gob.es/documents/2155244/2175232/GUIA+CONCILIACION+MARZO+2025.pdf/d06ed44e-b005-c102-b439-e4976fe3013d?t=1753952962260
   - title: 'Acoso profesional: guía para posibles víctimas'
-    md: 'División de Igualdad y Apoyo Social al Personal · Ministerio de Defensa
-
-
-      Información orientativa sobre denuncia, protección y procedimientos. Consulta la guía en la fuente institucional.
-
-
-      [Consultar fuente oficial ↗](https://www.inta.es/export/sites/default/.galleries/Galeria-pdfs-UPA/Guia-divulgativa-victimas-de-acoso-profesional.pdf)'
+    sub: División de Igualdad y Apoyo Social al Personal **Ministerio de Defensa**
+    md: Información orientativa sobre denuncia, protección y procedimientos. Consulta la guía en la fuente institucional.
+    url: https://www.inta.es/export/sites/default/.galleries/Galeria-pdfs-UPA/Guia-divulgativa-victimas-de-acoso-profesional.pdf
   - title: Buenas prácticas en procedimientos judiciales militares
-    md: 'Jurisdicción Militar · adoptada en 2018
-
-
-      Recomendaciones orientativas de organización y tramitación. No sustituye las normas procesales vigentes.
-
-
-      [Consultar fuente oficial ↗](https://www.defensa.gob.es/jurisdiccionmilitar/temas/guias/)'
+    sub: Jurisdicción Militar **adoptada en 2018**
+    md: Recomendaciones orientativas de organización y tramitación. No sustituye las normas procesales vigentes.
+    url: https://www.defensa.gob.es/jurisdiccionmilitar/temas/guias/
   - title: Los derechos fundamentales de los militares
-    md: 'Isidro Fernández García · Ministerio de Defensa · 2015
-
-
-      Monografía de referencia sobre derechos y límites del estatuto militar. Es una obra de 2015, no una guía actualizada
-      de todos los trámites.
-
-
-      [Consultar fuente oficial ↗](https://publicaciones.defensa.gob.es/los-derechos-fundamentales-de-los-militares.html)'
+    sub: Isidro Fernández García **Ministerio de Defensa · 2015**
+    md: Monografía de referencia sobre derechos y límites del estatuto militar. Es una obra de 2015, no una guía actualizada de todos los trámites.
+    url: https://publicaciones.defensa.gob.es/los-derechos-fundamentales-de-los-militares.html
   - title: Manual básico de Régimen Disciplinario de las Fuerzas Armadas
-    md: 'Tribunal Militar Central · Ministerio de Defensa · 2016
-
-
-      Obra de referencia sobre régimen disciplinario. Contrasta sus explicaciones con la legislación y jurisprudencia
-      vigentes.
-
-
-      [Consultar fuente oficial ↗](https://publicaciones.defensa.gob.es/manual-basico-de-regimen-disciplinario-de-las-fuerzas-armadas.html)'
+    sub: Tribunal Militar Central **Ministerio de Defensa · 2016**
+    md: Obra de referencia sobre régimen disciplinario. Contrasta sus explicaciones con la legislación y jurisprudencia vigentes.
+    url: https://publicaciones.defensa.gob.es/manual-basico-de-regimen-disciplinario-de-las-fuerzas-armadas.html
   - title: 'Abandono de destino y residencia: estudio doctrinal'
-    md: 'Manuel Rodríguez Monserrat · REDEM n.º 120 · publicado en 2024
-
-
-      Artículo en las páginas 43–83 de la revista, número correspondiente a julio–diciembre de 2023. Doctrina de
-      un tercero, no asesoramiento ni autoría de Juma.
-
-
-      [Consultar fuente oficial ↗](https://publicaciones.defensa.gob.es/revista-espa-ola-de-derecho-militar-120-revistas-pdf.html)'
+    sub: Manuel Rodríguez Monserrat **REDEM n.º 120 · publicado en 2024**
+    md: Artículo en las páginas 43-83 de la revista, número correspondiente a julio-diciembre de 2023. Doctrina de un tercero, no asesoramiento ni autoría de Juma.
+    url: https://publicaciones.defensa.gob.es/revista-espa-ola-de-derecho-militar-120-revistas-pdf.html
   box:
     cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
-box:
-  cols: 1
-  caps: false
-  align: left
+    cols_vs: 1.1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    label: Consultar fuente oficial
+    pin: ↗
+    btn: none
+    slider: true

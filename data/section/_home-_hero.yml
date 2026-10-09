@@ -15,7 +15,7 @@ boxes:
 - class: dispel
   bi: /u/fotos/manuel-acosta-retrato-ejecutivo-sentado.webp
   alt: Manuel Acosta, director de Juma Legal
-  rate: 1/1
+  rate: 4/3
   scroll: soft
   mt: -5
   mb_vs: -5

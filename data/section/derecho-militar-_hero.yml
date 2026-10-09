@@ -1,19 +1,26 @@
 name: Derecho Militar ➡️ Hero
 id: hero
-size: md
-color: light
+color: main-light
 boxes:
-- md: 'ÁREA 01 / ESPECIALIDAD PRINCIPAL
-
-
-    Tu trabajo tiene reglas propias. Cuando una evaluación, una sanción o un procedimiento puede alterar tu carrera,
+- sub: Área 01 / Especialidad Principal
+  title: Derecho Militar. **Defensa con contexto.**
+  hs: 0.0125
+  md: |
+    Tu trabajo tiene reglas propias.
+    Cuando una evaluación, una sanción o un procedimiento puede alterar tu carrera,
     conviene contar con asesoramiento que entienda ese contexto.
 
-
-    [Plantear mi asunto↗](/contacto/)'
-  title: Derecho Militar. Defensa con contexto.
-  hn: h1
+    [[::↗:: Plantear una consulta]](/contacto/)
+- class: dispel
+  bi: /u/fotos/manuel-acosta-despacho-retrato-tres-cuartos.webp
+  alt: Manuel Acosta, director de Juma Legal
+  rate: 4/3
+  scroll: soft
+  mt: -5
+  mb_vs: -5
 box:
-  cols: 1
-  caps: false
+  cols: 2
+  gap: 4
+  gap_vs: 2
   align: left
+  sides: true

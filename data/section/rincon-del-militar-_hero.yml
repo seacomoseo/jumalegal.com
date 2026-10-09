@@ -3,7 +3,7 @@ id: hero
 color: main-light
 boxes:
 - sub: Recursos / Rincón del Militar
-  title: Información para avanzar **con más criterio.**
+  title: Información para avanzar <br> **con más criterio.**
   hs: 0.01
   md: |
     Artículos y recursos sobre cuestiones habituales de la carrera militar.

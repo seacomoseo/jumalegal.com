@@ -1,32 +1,52 @@
 name: Derecho Militar ➡️ Asuntos profesionales
 id: asuntos-profesionales
-size: lg
-color: white
+box:
+  align: left
 boxes:
-- md: Estos son puntos de partida para entender tu caso, no soluciones automáticas. La viabilidad depende de los
-    hechos y los plazos.
-  title: Asuntos de tu vida profesional.
+- sub: 01 **En qué podemos ayudarte**
+- boxes:
+  - title: Asuntos de tu **vida profesional.**
+    hs: .02
+  - md: |
+      Estos son puntos de partida para entender tu caso, no soluciones automáticas.
+      La viabilidad depende de los hechos y los plazos.
+  box:
+    cols: 2
+    gap: 18
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  mb_vs: 2
   boxes:
-  - title: Expedientes disciplinarios
+  - sub: '01'
+    title: Expedientes disciplinarios
     md: Defensa en procedimientos por faltas leves, graves y muy graves.
-  - title: IPEC
+  - sub: '02'
+    title: IPEC
     md: Asesoramiento y reclamaciones relacionadas con el Informe Personal de Calificación y sus posibles consecuencias.
-  - title: EICP · Condiciones psicofísicas
+  - sub: '03'
+    title: EICP · Condiciones psicofísicas
     md: Asistencia en expedientes de insuficiencia de condiciones psicofísicas, valoraciones y recursos.
-  - title: Jurisdicción militar
+  - sub: '04'
+    title: Jurisdicción militar
     md: Asesoramiento y defensa en procedimientos ante los órganos de la jurisdicción militar.
-  - title: Conciliación y permisos
+  - sub: '05'
+    title: Conciliación y permisos
     md: Derechos relacionados con conciliación, permisos y licencias en las Fuerzas Armadas.
-  - title: Bajas médicas
+  - sub: '06'
+    title: Bajas médicas
     md: Orientación sobre bajas y su posible repercusión en la carrera militar.
-  - title: Otras consultas
+  - sub: '07'
+    title: Otras consultas
     md: Cuestiones jurídicas vinculadas con tu situación profesional militar.
   box:
     cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
-box:
-  cols: 1
-  caps: false
-  align: left
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    hs: 4
+    md_sm: true
+    pin: ↗
+    btn: none

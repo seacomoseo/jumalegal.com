@@ -5,8 +5,9 @@ box:
 boxes:
 - sub: 01 **Disponible ahora**
 - boxes:
-  - title: Conocimiento que **ya puedes consultar.**
+  - title: Conocimiento que <br> **ya puedes consultar.**
     hs: .03
+    hs_vs: .05
   - md: 'Recursos de carácter general: no sustituyen el estudio individual de una situación ni deben usarse sin verificar vigencia y plazos.'
     fit: .8
   box:
@@ -16,16 +17,17 @@ boxes:
     align_x: space-between
 - mt_vs: 2
   mb_vs: 2
+  class: prensa
   list:
     type: article
     max: 12
   box:
     cols: 4
     cols_vs: 1.5
+    align_x: left
     slider: true
 - url: /articulos/
   label: Ver todos los artículos
   pin: ↗
   align: center
   btn: none
-

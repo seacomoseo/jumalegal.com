@@ -1,19 +1,25 @@
 name: Derecho Administrativo ➡️ Hero
 id: hero
-size: md
-color: light
+color: main-light
 boxes:
-- md: 'ÁREA 02 / SEGUNDA ÁREA
+- sub: Área 02 / Segunda Área
+  title: Derecho Administrativo. **Claridad frente a la Administración.**
+  hs: 0.0125
+  md: |
+    Acompañamiento jurídico a particulares, profesionales y empresas cuando
+    una actuación administrativa afecta a sus derechos o intereses.
 
-
-    Acompañamiento jurídico a particulares, profesionales y empresas cuando una actuación administrativa afecta
-    a sus derechos o intereses.
-
-
-    [Contar mi caso↗](/contacto/)'
-  title: Derecho Administrativo. Claridad frente a la Administración.
-  hn: h1
+    [[::↗:: Contar mi caso]](/contacto/)
+- class: dispel
+  bi: /u/fotos/manuel-acosta-despacho-retrato-tres-cuartos.webp
+  alt: Manuel Acosta, director de Juma Legal
+  rate: 4/3
+  scroll: soft
+  mt: -5
+  mb_vs: -5
 box:
-  cols: 1
-  caps: false
+  cols: 2
+  gap: 4
+  gap_vs: 2
   align: left
+  sides: true

@@ -1,6 +1,5 @@
 name: Nosotros ➡️ Contacto
 id: contacto
-size: lg
 color: white
 boxes:
 - title: Lo importante es <br> **tu siguiente paso.**
@@ -9,4 +8,4 @@ boxes:
   url: /contacto/
   pin: ↗
   btn: cta
-  align: centr
+  align: center

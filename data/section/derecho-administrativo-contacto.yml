@@ -1,18 +1,17 @@
 name: Derecho Administrativo ➡️ Contacto
 id: contacto
-size: lg
-color: white
+color: main-dark
 boxes:
-- md: 'EL ENFOQUE
+- sub: El Enfoque
+  title: Estudiar primero. **Actuar después.**
+  hs: .015
+- md: |
+    Antes de tomar una decisión, revisamos el problema y su contexto.
+    El contacto inicial permite valorar si podemos asumir el asunto y cómo plantear una consulta jurídica.
 
-
-    Antes de tomar una decisión, revisamos el problema y su contexto. El contacto inicial permite valorar si podemos
-    asumir el asunto y cómo plantear una consulta jurídica.
-
-
-    [Plantear mi asunto↗](/contacto/)'
-  title: Estudiar primero. Actuar después.
+    [[::↗:: Plantear mi asunto]](/contacto/)
 box:
-  cols: 1
-  caps: false
+  cols: 2
+  gap: 5
+  align_y: center
   align: left

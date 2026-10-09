@@ -1,17 +1,16 @@
 name: Derecho Militar ➡️ Divulgación
 id: divulgacion
-size: lg
-color: white
+color: main-dark
 boxes:
-- md: 'RECURSOS
-
-
+- sub: Recursos
+  title: Información útil. <br> **Sin sustituir tu caso.**
+  hs: .015
+- md: |
     El Rincón del Militar reúne artículos existentes sobre normativa y problemas habituales.
 
-
-    [Explorar recursos↗](/rincon-del-militar/)'
-  title: Información útil. Sin sustituir tu caso.
+    [[::↗:: Explorar recursos]](/rincon-del-militar/)
 box:
-  cols: 1
-  caps: false
+  cols: 2
+  gap: 5
+  align_y: center
   align: left

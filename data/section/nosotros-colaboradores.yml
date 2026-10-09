@@ -52,6 +52,7 @@ boxes:
     gap: 1
     pd_vs: 1.5
     color: such
+    align_x: left
     ratio: 6/1
     contain: true
     gray: true
@@ -61,4 +62,3 @@ boxes:
   label: Trayectoria y formación en LinkedIn
   btn: none
   pin: ↗
-  align: center

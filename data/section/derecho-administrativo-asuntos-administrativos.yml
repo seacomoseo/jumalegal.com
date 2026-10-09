@@ -1,35 +1,60 @@
 name: Derecho Administrativo ➡️ Asuntos administrativos
 id: asuntos-administrativos
-size: lg
-color: white
+box:
+  align: left
 boxes:
-- md: 'Del empleo público a la contratación: cada materia exige estudiar hechos, documentos, vía procedente y plazo.'
-  title: Decisiones públicas. Consecuencias reales.
+- sub: 01 **Ámbitos de actuación**
+- boxes:
+  - title: Decisiones públicas. **Consecuencias reales.**
+    hs: .02
+    fit: .55
+  - md: |
+      Del empleo público a la contratación:
+      cada materia exige estudiar hechos, documentos, vía procedente y plazo.
+    fit: .45
+  box:
+    cols: 1
+    gap: 5
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  mb_vs: 2
   boxes:
-  - title: Responsabilidad patrimonial
+  - sub: '01'
+    title: Responsabilidad patrimonial
     md: Reclamaciones por daños derivados del funcionamiento de las Administraciones Públicas.
-  - title: Contratación pública
+  - sub: '02'
+    title: Contratación pública
     md: Licitaciones, adjudicaciones, ejecución y conflictos de contratos con el sector público.
-  - title: Urbanismo
+  - sub: '03'
+    title: Urbanismo
     md: Licencias, disciplina urbanística, planeamiento y procedimientos sobre suelo y edificación.
-  - title: Empleo público
+  - sub: '04'
+    title: Empleo público
     md: Carrera, derechos, retribuciones y situaciones de personal funcionario, estatutario y laboral.
-  - title: Oposiciones
+  - sub: '05'
+    title: Oposiciones
     md: Incidencias en bases, valoraciones, exclusiones y procesos selectivos.
-  - title: Sanciones administrativas
+  - sub: '06'
+    title: Sanciones administrativas
     md: Defensa frente a procedimientos sancionadores y resoluciones de la Administración.
-  - title: Recursos administrativos
+  - sub: '07'
+    title: Recursos administrativos
     md: Impugnación de actos por las vías administrativas que correspondan.
-  - title: Contencioso-administrativo
+  - sub: '08'
+    title: Contencioso-administrativo
     md: Defensa judicial frente a resoluciones y actuaciones administrativas.
-  - title: Otras consultas
+  - sub: '09'
+    title: Otras consultas
     md: Cuestiones sobre tus derechos en las relaciones con la Administración.
   box:
     cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
-box:
-  cols: 1
-  caps: false
-  align: left
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    hs: 4
+    md_sm: true
+    pin: ↗
+    btn: none

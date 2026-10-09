@@ -41,10 +41,8 @@ boxes:
     gap: 1
     pd_vs: 1.5
     color: such
-    # card: true
-    # hs: .03
+    align_x: left
 - url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/
   label: Trayectoria y formación en LinkedIn
   btn: none
   pin: ↗
-  align: center

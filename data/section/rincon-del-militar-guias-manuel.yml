@@ -1,35 +1,40 @@
 name: Rincón del Militar ➡️ Guías de Manuel
 id: guias-manuel
-size: lg
-color: white
-boxes:
-- md: Documentos originales del autor para consultar y descargar. Información general que no sustituye el asesoramiento
-    sobre tu caso.
-  title: Guías prácticas de Manuel Acosta
-  boxes:
-  - title: Plazos de incorporación a un nuevo destino
-    md: 'MANUEL ACOSTA · PDF
-
-
-      Resumen práctico de plazos, cese e incorporación.
-
-
-      [Consultar PDF ↗](/u/recursos/plazos-incorporacion-nuevo-destino.pdf) · [Descargar PDF ↓](/u/recursos/plazos-incorporacion-nuevo-destino.pdf)'
-  - title: Modificación de datos de la compensación económica del INVIED
-    md: 'MANUEL ACOSTA · PDF
-
-
-      Instrucciones con capturas de la plataforma para realizar el trámite.
-
-
-      [Consultar PDF ↗](/u/recursos/modificacion-datos-compensacion-economica-invied.pdf) · [Descargar
-      PDF ↓](/u/recursos/modificacion-datos-compensacion-economica-invied.pdf)'
-  box:
-    cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
 box:
-  cols: 1
-  caps: false
   align: left
+boxes:
+# - sub: 01 **Disponible ahora**
+- boxes:
+  - title: Guías prácticas de **Manuel Acosta.**
+    hs: .03
+    hs_vs: .05
+  - md: |
+      Documentos originales del autor para consultar y descargar.
+      Información general que no sustituye el asesoramiento sobre tu caso.
+    fit: .8
+  box:
+    cols: 2
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  class: prensa
+  boxes:
+  - sub: Manuel Acosta **PDF**
+    title: Plazos de incorporación a un nuevo destino
+    md: Resumen práctico de plazos, cese e incorporación.
+    url: /u/recursos/plazos-incorporacion-nuevo-destino.pdf
+  - sub: Manuel Acosta **PDF**
+    title: Modificación de datos de la compensación económica del INVIED
+    md: Instrucciones con capturas de la plataforma para realizar el trámite.
+    url: /u/recursos/modificacion-datos-compensacion-economica-invied.pdf
+  box:
+    cols: 2
+    cols_vs: 1.1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    label: Descargar PDF
+    pin: ↓
+    btn: none
+    slider: true
