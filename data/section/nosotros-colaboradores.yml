@@ -15,50 +15,45 @@ boxes:
     align_y: bottom
     align_x: space-between
 - mt_vs: 2
-  mb_vs: 2
   boxes:
   - anchor: Ángeles Martínez Cudero
     img: /u/colaboradores/martinez-cudero.png
     alt: Ángeles Martínez Cudero
-    sub: Abogada colaboradora
-    md: Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.
+    md: Abogada colaboradora
+    # md: Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.
   - anchor: Apestegui Abogados
     img: /u/colaboradores/apestegui.png
     alt: Apestegui Abogados
-    sub: Despacho colaborador
-    md: Colaboración en asuntos de Derecho Militar y Guardia Civil.
+    md: Despacho colaborador
+    # md: Colaboración en asuntos de Derecho Militar y Guardia Civil.
   - anchor: ABYTE
     img: /u/colaboradores/abyte.png
     alt: ABYTE
-    sub: Derecho Administrativo
-    md: Colaboración en Derecho Administrativo y Urbanismo.
+    md: Derecho Administrativo
+    # md: Colaboración en Derecho Administrativo y Urbanismo.
   - anchor: EVALUO
     img: /u/colaboradores/evaluo.png
     alt: EVALUO
-    sub: Valoración del daño corporal
-    md: Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones psicofísicas (EICP).
+    md: Valoración del daño corporal
+    # md: Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones psicofísicas (EICP).
   - anchor: IPFLegal
     img: /u/colaboradores/ipflegal.png
     alt: IPFLegal
-    sub: Instituto de Psicología Forense
-    md: Colaboración en psicología forense y apoyo especializado.
+    md: Instituto de Psicología Forense
+    # md: Colaboración en psicología forense y apoyo especializado.
   - anchor: Fiscalisy
     img: /u/colaboradores/fiscalisy.png
     alt: Fiscalisy
-    sub: Asesoramiento fiscal
-    md: Asesoría fiscal colaboradora de Juma Legal.
+    md: Asesoramiento fiscal
+    # md: Asesoría fiscal colaboradora de Juma Legal.
   box:
     cols: 3
     gap: 1
     pd_vs: 1.5
-    color: such
-    align_x: left
+    # color: such
+    align: center
     ratio: 6/1
     contain: true
     gray: true
     hs: 4
     md_sm: true
-- url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/
-  label: Trayectoria y formación en LinkedIn
-  btn: none
-  pin: ↗
