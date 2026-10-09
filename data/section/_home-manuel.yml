@@ -15,8 +15,7 @@ boxes:
   label: Conoce a Manuel
   pin: ↗
   btn: such
-- class: dispel dispel--right
-  bi: /u/fotos/manuel-acosta-retrato-informal.webp
+- bi: /u/fotos/manuel-acosta-retrato-informal-sin-fondo.webp
   alt: Retrato de Manuel Acosta
   rate: 1/1
   scroll: soft

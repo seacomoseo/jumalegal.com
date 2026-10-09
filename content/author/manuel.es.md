@@ -1,8 +1,10 @@
 ---
 slug: manuel-acosta
 title: Manuel Acosta
-img: /u/fotos/manuel-acosta-retrato-informal.webp
+img: /u/fotos/manuel-acosta-retrato-informal-sin-fondo-fit.webp
 sum: Manuel Andrés Acosta Hellín, abogado ICAMUR 8075 y director de Juma Legal en Murcia. Su actividad se centra en Derecho Militar y Derecho Administrativo.
+toc: false
+index: false
 alts:
 - Manuel Andrés Acosta Hellín
 job: Abogado de Derecho Militar y Administrativo

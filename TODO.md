@@ -1,9 +1,7 @@
 # TO DO
 
-- Home > Rincón: imagen a horizontal
 - Slider: fix btn none or hide to pips and arrows
 - Artículos relacionados
-- Página de `author`
 - Imágenes en artículos con Antigrabity
 
 

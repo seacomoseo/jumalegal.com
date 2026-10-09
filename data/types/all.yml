@@ -16,7 +16,6 @@ tpl:
   - file: base-content
   - file: base-address
   - file: base-author
-  - file: base-social
   - file: base-comments
   - file: base-children
   - file: base-share

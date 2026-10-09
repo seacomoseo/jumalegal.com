@@ -162,7 +162,7 @@ h6, .h6,
 
 // Dispel
 .dispel {
-  --mask-img: linear-gradient(transparent 0%, black 15%);
+  // --mask-img: linear-gradient(transparent 0%, black 15%);
   .bg-fig {
     -webkit-mask-image: var(--mask-img);
     mask-image: var(--mask-img);
@@ -172,7 +172,7 @@ h6, .h6,
   .dispel {
     --mask-img: linear-gradient(to right, transparent 0%, black 25%);
   }
-  .dispel--right {
-    --mask-img: linear-gradient(to left, transparent 0%, black 25%);
-  }
+  // .dispel--right {
+  //   --mask-img: linear-gradient(to left, transparent 0%, black 25%);
+  // }
 }
