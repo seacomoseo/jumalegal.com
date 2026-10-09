@@ -1,67 +1,64 @@
 name: Nosotros ➡️ Colaboradores
 id: colaboradores
-size: lg
-color: white
+box:
+  align: left
 boxes:
-- md: Una red de profesionales y despachos independientes que complementa el trabajo de Juma según las necesidades
-    de cada caso, con Manuel como referencia para tu consulta.
-  title: Especialidades que suman. Manuel al frente de tu asunto.
+- sub: 02 **Profesionales colaboradores**
+- boxes:
+  - title: Especialidades que suman. **Manuel al frente de tu asunto.**
+    hs: 1
+  - md: |
+      Una red de profesionales y despachos independientes que complementa el trabajo de Juma según las necesidades de cada caso, con Manuel como referencia para tu consulta.
+  box:
+    cols: 2
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  mb_vs: 2
   boxes:
-  - title: Ángeles Martínez Cudero
+  - anchor: Ángeles Martínez Cudero
     img: /u/colaboradores/martinez-cudero.png
     alt: Ángeles Martínez Cudero
-    contain: true
-    md: 'Abogada colaboradora
-
-
-      Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.'
-  - title: Apestegui Abogados
+    sub: Abogada colaboradora
+    md: Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.
+  - anchor: Apestegui Abogados
     img: /u/colaboradores/apestegui.png
     alt: Apestegui Abogados
-    contain: true
-    md: 'Despacho colaborador
-
-
-      Colaboración en asuntos de Derecho Militar y Guardia Civil.'
-  - title: ABYTE
+    sub: Despacho colaborador
+    md: Colaboración en asuntos de Derecho Militar y Guardia Civil.
+  - anchor: ABYTE
     img: /u/colaboradores/abyte.png
     alt: ABYTE
-    contain: true
-    md: 'Derecho Administrativo
-
-
-      Colaboración en Derecho Administrativo y Urbanismo.'
-  - title: EVALUO
+    sub: Derecho Administrativo
+    md: Colaboración en Derecho Administrativo y Urbanismo.
+  - anchor: EVALUO
     img: /u/colaboradores/evaluo.png
     alt: EVALUO
-    contain: true
-    md: 'Valoración del daño corporal
-
-
-      Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones
-      psicofísicas (EICP).'
-  - title: IPFLegal
+    sub: Valoración del daño corporal
+    md: Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones psicofísicas (EICP).
+  - anchor: IPFLegal
     img: /u/colaboradores/ipflegal.png
     alt: IPFLegal
-    contain: true
-    md: 'Instituto de Psicología Forense
-
-
-      Colaboración en psicología forense y apoyo especializado.'
-  - title: Fiscalisy
+    sub: Instituto de Psicología Forense
+    md: Colaboración en psicología forense y apoyo especializado.
+  - anchor: Fiscalisy
     img: /u/colaboradores/fiscalisy.png
     alt: Fiscalisy
-    contain: true
-    md: 'Asesoramiento fiscal
-
-
-      Asesoría fiscal colaboradora de Juma Legal.'
+    sub: Asesoramiento fiscal
+    md: Asesoría fiscal colaboradora de Juma Legal.
   box:
     cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
-box:
-  cols: 1
-  caps: false
-  align: left
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    ratio: 6/1
+    contain: true
+    gray: true
+    hs: 4
+    md_sm: true
+- url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/
+  label: Trayectoria y formación en LinkedIn
+  btn: none
+  pin: ↗
+  align: center

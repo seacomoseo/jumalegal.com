@@ -1,60 +1,70 @@
 name: Nosotros ➡️ Redes y prensa
 id: redes-prensa
-size: lg
-color: white
+box:
+  align: left
 boxes:
-- md: 'Explicaciones sobre situaciones concretas y publicaciones que ayudan a conocer el trabajo de Manuel. Abre
-    cada pieza en su fuente original, sin cargar vídeos automáticamente.
-
-
-    [Instagram ↗](https://www.instagram.com/juma.legal/)
-
-
-    [TikTok ↗](https://www.tiktok.com/@juma.legal)
-
-
-    [Actividad pública en LinkedIn ↗](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/recent-activity/all/)'
-  title: En redes y en prensa. El Derecho, más cerca.
+- sub: 03 **En conversación**
+- boxes:
+  - title: En redes y en prensa. **El Derecho, más cerca.**
+    hs: .03
+  - md: |
+      Explicaciones sobre situaciones concretas y publicaciones que ayudan a conocer el trabajo de Manuel.
+      Abre cada pieza en su fuente original, sin cargar vídeos automáticamente.
+  box:
+    cols: 2
+    gap: 5
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt_vs: 2
+  mb_vs: 2
+  id: prensa
   boxes:
   - title: Reducción de jornada e indemnización por residencia
-    md: 'PRENSA · EL FARO DE CEUTA
-
-
-      El Faro de Ceuta recoge una explicación de Manuel publicada en TikTok sobre militares destinados en Ceuta
-      y Melilla.
-
-
-      [Leer publicación ↗](https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/)'
+    sub: Prensa **El faro de Ceuta**
+    md: El Faro de Ceuta recoge una explicación de Manuel publicada en TikTok sobre militares destinados en Ceuta y Melilla.
+    url: https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/)
+    label: Leer publicación
+  - title: El camino de Manuel hacia la abogacía
+    sub: Instagram **Historia personal**
+    md: Una publicación para conocer la persona detrás de Juma y su recorrido profesional.
+    url: https://www.instagram.com/juma.legal/reel/DW4V876Dfq4/
+    label: Ver en Instagram
   - title: Cuando la calificación es desfavorable
-    md: 'INSTAGRAM · IPEC
-
-
-      Información sobre una de las cuestiones habituales de la vida profesional militar.
-
-
-      [Ver en Instagram ↗](https://www.instagram.com/juma.legal/reel/DYScJIytAxx/)'
+    sub: Instagram **IPEC**
+    md: Información sobre una de las cuestiones habituales de la vida profesional militar.
+    url: https://www.instagram.com/juma.legal/reel/DYScJIytAxx/)
+    label: Ver en Instagram
   - title: Un destino lejos de la familia
-    md: 'INSTAGRAM · DERECHO MILITAR
-
-
-      Divulgación sobre situaciones que conectan vida familiar y carrera militar.
-
-
-      [Ver en Instagram ↗](https://www.instagram.com/juma.legal/reel/DdZandEKNNv/)'
+    sub: Instagram **Derecho Militar**
+    md: Divulgación sobre situaciones que conectan vida familiar y carrera militar.
+    url: https://www.instagram.com/juma.legal/reel/DdZandEKNNv/)
+    label: Ver en Instagram
   - title: La indemnización por residencia
-    md: 'TIKTOK · RETRIBUCIONES
-
-
-      Una explicación sobre reducción de jornada y retribuciones, también recogida en prensa.
-
-
-      [Ver en TikTok ↗](https://www.tiktok.com/@juma.legal/video/7665747624716176662)'
+    sub: TikTok **Retribuciones**
+    md: Una explicación sobre reducción de jornada y retribuciones, también recogida en prensa.
+    url: https://www.tiktok.com/@juma.legal/video/7665747624716176662)
+    label: Ver en TikTok
   box:
     cols: 3
-    cols_vs: 1
-    align: left
-    caps: false
-box:
-  cols: 1
-  caps: false
-  align: left
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    hs: 4
+    md_sm: true
+    pin: ↗
+    btn: none
+- boxes:
+  - label: Instagram
+    url: https://www.instagram.com/juma.legal/
+  - label: TikTok
+    url: https://www.tiktok.com/@juma.legal
+  - label: Actividad pública en LinkedIn
+    url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/recent-activity/all/)
+  box:
+    cols: 3
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    pin: ↗
+    btn: none

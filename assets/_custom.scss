@@ -10,6 +10,7 @@
   opacity: .75;
   strong {
     color: var(--main-text);
+    order: 3;
   }
   &::after {
     content: '';
@@ -18,6 +19,20 @@
     background: var(--text);
     margin-left: 1em;
     opacity: .25;
+    order: 4;
+  }
+}
+#prensa {
+  .box__sub:has(strong) {
+    gap: .25em;
+    &::before {
+      content: "·";
+      color: var(--dark);
+      order: 2;
+    }
+    &::after {
+      content: none;
+    }
   }
 }
 .sub {
@@ -116,17 +131,14 @@ h6, .h6,
   animation: show-from .5s (.25 + .125s * $delay) both;
 }
 
-// Home
-#body-home {
-  // Hero
-  #hero {
-    overflow: hidden;
-    .img        { @include show-from(0); --show-from: scale(3); }
-    .box__title { @include show-from(1); }
-    .sub        { @include show-from(2); }
-    .md p       { @include show-from(3); }
-    .md .btns   { @include show-from(4); }
-  }
+// Home Hero
+#body-home #hero {
+  overflow: hidden;
+  .img        { @include show-from(0); --show-from: scale(3); }
+  .box__title { @include show-from(1); }
+  .sub        { @include show-from(2); }
+  .md p       { @include show-from(3); }
+  .md .btns   { @include show-from(4); }
 }
 
 // Áreas
@@ -137,6 +149,13 @@ h6, .h6,
   .box__btn {
     margin-top: 1.5rem;
     width: auto;
+  }
+}
+
+// Colaboradores
+#colaboradores {
+  img {
+    object-position: left;
   }
 }
 

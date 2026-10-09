@@ -13,7 +13,6 @@ tpl:
   sections:
   - file: nosotros-_hero
   - file: nosotros-trayectoria-formacion
-  - file: nosotros-historia-manuel
   - file: nosotros-colaboradores
   - file: nosotros-militares-con-futuro
   - file: nosotros-redes-prensa
