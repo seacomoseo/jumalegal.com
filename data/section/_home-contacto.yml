@@ -7,10 +7,10 @@ boxes:
   title: ¿Necesitas orientación sobre <br> **tu situación?**
   hs: .02
   md: |
-    Un primer mensaje basta para valorar si podemos ayudarte. \
-    La consulta jurídica de estudio se acuerda aparte.
+    Un primer mensaje basta para valorar si podemos ayudarte.
+  # La consulta jurídica de estudio se acuerda aparte.
   url: /contacto/
   label: Plantear mi asunto
-  pin: ↗
+  pin: north_east
 box:
   align: center

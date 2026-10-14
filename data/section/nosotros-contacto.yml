@@ -6,6 +6,6 @@ boxes:
   hs: .03
   label: Contactar
   url: /contacto/
-  pin: ↗
+  pin: north_east
   btn: cta
   align: center

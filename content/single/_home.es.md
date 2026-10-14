@@ -12,7 +12,7 @@ icon: home
 tpl:
   sections:
   - file: _home-_hero
-  - file: _home-enfoque
+  # - file: _home-enfoque
   - file: _home-areas
   - file: _home-manuel
   - file: _home-primer-contacto

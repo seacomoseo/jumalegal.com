@@ -6,16 +6,16 @@ box:
 boxes:
 - sub: 03 **Cómo empezamos**
 - boxes:
-  - title: El primer paso, **sin malentendidos.**
+  - title: El primer paso, <br> **sin malentendidos.**
     hs: .03
-    fit: 1.2
-  - md: El contacto inicial sirve para valorar tu situación. Si hace falta estudiar el caso en una consulta profesional, te informaremos antes.
-    fit: .8
-  box:
-    cols: 2
-    gap_vs: 1
-    align_y: bottom
-    align_x: space-between
+  #   fit: 1.2
+  # - md: El contacto inicial sirve para valorar tu situación. Si hace falta estudiar el caso en una consulta profesional, te informaremos antes.
+  #   fit: .8
+  # box:
+  #   cols: 2
+  #   gap_vs: 1
+  #   align_y: bottom
+  #   align_x: space-between
 - mt_vs: 2
   mb_vs: 2
   boxes:
@@ -34,4 +34,4 @@ boxes:
     hs: 4
 - url: /contacto/
   label: Cómo contactar
-  pin: ↗
+  pin: north_east

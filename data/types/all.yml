@@ -35,5 +35,7 @@ tpl:
     hs_vs: 5.5
     md: hide
     btn: cta
+    arrows: none
+    time: 8
   rel:
     slider: true

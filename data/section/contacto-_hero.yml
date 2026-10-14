@@ -11,7 +11,7 @@ boxes:
     te informaremos de sus condiciones antes de concertarla.
   url: '#primer-mensaje'
   label: Cómo contactar
-  pin: ↗
+  pin: north_east
 - class: dispel
   bi: /u/fotos/manuel-acosta-llamada-primer-plano.webp
   alt: Manuel Acosta, director de Juma Legal atendiendo una llamada

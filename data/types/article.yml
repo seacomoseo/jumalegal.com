@@ -1,6 +1,7 @@
 title: Artículos
 base: article
 weight: 2
+rel: true
 tpl:
   list:
     cols_vs: 1
@@ -12,7 +13,7 @@ tpl:
     # inset: true
     align: left
     label: Leer artículo
-    pin: ↗
+    pin: north_east
     btn: none
     tags:
     - type: date

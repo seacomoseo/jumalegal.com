@@ -12,7 +12,7 @@ menu:
   - label: Contacto
     url: /contacto/
     btn: cta
-    icon: ↗
+    icon: north_east
   - label: Rincón del Militar
     url: /rincon-del-militar/
 callnows:
@@ -31,9 +31,10 @@ footer:
       Derecho Militar y Administrativo.\
       Desde Murcia, para toda España.
 
-      [[::brand:instagram:: Instagram]](https://www.instagram.com/juma.legal/ "[dot nofollow]")
-      [[::brand:tiktok:: TikTok]](https://www.tiktok.com/@juma.legal "[dot nofollow]")
-      [[::brand:linkedin-in:: Linkedin]](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/ "[dot nofollow]")
+      [::brand:instagram::](https://www.instagram.com/juma.legal/ "Instagram [dot nofollow]")
+      [::brand:tiktok::](https://www.tiktok.com/@juma.legal "TikTok [dot nofollow]")
+      [::brand:linkedin-in::](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/ "Linkedin [dot nofollow]")
+      {.btns .h1}
   - node: div
   - md: |
       - ::none:: [Derecho Militar](/derecho-militar/)

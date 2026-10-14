@@ -98,10 +98,14 @@ h6, .h6,
 }
 .btn,
 .link {
-  .icon--txt {
+  > .icon {
     order: 20;
     align-self: center;
+    scale: none;
   }
+}
+.btn:not(.btn--dot) > .icon {
+  margin-inline: 0 -0.25em;
 }
 
 .review__stars {
@@ -118,13 +122,9 @@ h6, .h6,
   color: var(--hover);
   background-size: 100% 100%;
   padding-bottom: .5em;
-  .icon--txt {
-    margin-left: .125em;
-    font-size: 1.5em;
-  }
 }
 .link:is(:hover, :focus, .box--go:where(:hover, :focus) *) {
-  color: var(--alt-text);
+  --hover: var(--alt-text);
   background-size: 0 100%;
 }
 

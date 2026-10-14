@@ -48,5 +48,5 @@ boxes:
     align_x: left
     hs: 4
     md_sm: true
-    pin: ↗
+    pin: north_east
     btn: none

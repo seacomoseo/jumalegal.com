@@ -13,7 +13,7 @@ boxes:
     el siguiente paso.
   url: /nosotros/
   label: Conoce a Manuel
-  pin: ↗
+  pin: north_east
   btn: such
 - bi: /u/fotos/manuel-acosta-retrato-informal-sin-fondo.webp
   alt: Retrato de Manuel Acosta

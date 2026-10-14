@@ -6,15 +6,15 @@ box:
 boxes:
 - sub: 01 **Áreas de práctica**
 - boxes:
-  - title: Una práctica enfocada. **Dos áreas conectadas.**
+  - title: Una práctica enfocada. <br> **Dos áreas conectadas.**
     hs: .03
-  - md: 'Un mismo criterio: claridad, rigor y atención personal en asuntos que pueden afectar tu trayectoria profesional.'
-    fit: .8
-  box:
-    cols: 2
-    gap_vs: 1
-    align_y: bottom
-    align_x: space-between
+  # - md: 'Un mismo criterio: claridad, rigor y atención personal en asuntos que pueden afectar tu trayectoria profesional.'
+  #   fit: .8
+  # box:
+  #   cols: 2
+  #   gap_vs: 1
+  #   align_y: bottom
+  #   align_x: space-between
 - id: areas-derecho
   mt_vs: 2
   boxes:
@@ -34,4 +34,4 @@ boxes:
     pd_vs: 2
     hs: .03
     label: Conocer el área
-    pin: ↗
+    pin: north_east

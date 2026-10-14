@@ -26,8 +26,10 @@ boxes:
     cols_vs: 1.5
     align_x: left
     slider: true
+    arrows: none
+    time: 8
 - url: /articulos/
   label: Ver todos los artículos
-  pin: ↗
+  pin: north_east
   align: center
   btn: none

@@ -53,7 +53,7 @@ boxes:
     align_x: left
     hs: 4
     md_sm: true
-    pin: ↗
+    pin: north_east
     btn: none
 - boxes:
   - label: Instagram
@@ -68,5 +68,5 @@ boxes:
     pd_vs: 1.5
     color: such
     align_x: left
-    pin: ↗
+    pin: north_east
     btn: none

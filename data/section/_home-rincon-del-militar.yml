@@ -8,7 +8,7 @@ boxes:
   md: Artículos sobre la vida profesional militar.
   url: /rincon-del-militar/
   label: Visitar el Rincón del Militar
-  pin: ↗
+  pin: north_east
   btn: turn
 - class: dispel
   bi: /u/fotos/juma-escritorio-portatil.webp

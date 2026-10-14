@@ -5,19 +5,19 @@ box:
 boxes:
 - sub: 01 **Ámbitos de actuación**
 - boxes:
-  - title: Decisiones públicas. **Consecuencias reales.**
+  - title: Decisiones públicas. <br> **Consecuencias reales.**
     hs: .02
-    fit: .55
-  - md: |
-      Del empleo público a la contratación:
-      cada materia exige estudiar hechos, documentos, vía procedente y plazo.
-    fit: .45
-  box:
-    cols: 1
-    gap: 5
-    gap_vs: 1
-    align_y: bottom
-    align_x: space-between
+  #   fit: .55
+  # - md: |
+  #     Del empleo público a la contratación:
+  #     cada materia exige estudiar hechos, documentos, vía procedente y plazo.
+  #   fit: .45
+  # box:
+  #   cols: 1
+  #   gap: 5
+  #   gap_vs: 1
+  #   align_y: bottom
+  #   align_x: space-between
 - mt_vs: 2
   mb_vs: 2
   boxes:
@@ -56,5 +56,5 @@ boxes:
     align_x: left
     hs: 4
     md_sm: true
-    pin: ↗
+    pin: north_east
     btn: none

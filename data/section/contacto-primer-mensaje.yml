@@ -19,11 +19,11 @@ boxes:
     - ::txt:Lunes - Jueves:: 10:00 - 14:00 y 16:00 - 18:00
     - ::txt:Viernes:: 08:00 - 14:00
 
-    [[::↗:: info@jumalegal.com]](info@jumalegal.com "[swap ga4]")
+    [[::north_east:: info@jumalegal.com]](info@jumalegal.com "[swap ga4]")
 - sub: Formulario
   title: Una vía de contacto a tu medida.
   form:
-    icon: ↗
+    icon: north_east
   inputs:
   - type: text
     name: Nombre y apellidos

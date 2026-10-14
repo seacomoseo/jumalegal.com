@@ -35,6 +35,8 @@ boxes:
     color: such
     align_x: left
     label: Descargar PDF
-    pin: ↓
+    pin: arrow_cool_down
     btn: none
     slider: true
+    arrows: none
+    time: 8

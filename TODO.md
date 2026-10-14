@@ -1,7 +1,5 @@
 # TO DO
 
-- Slider: fix btn none or hide to pips and arrows
-- Artículos relacionados
 - Imágenes en artículos con Antigrabity
 
 

@@ -9,6 +9,6 @@ boxes:
     No envíes expedientes ni datos de salud por email inicial.
   label: Cómo plantear una consulta
   url: /contacto/
-  pin: ↗
+  pin: north_east
   btn: cta
   align: center

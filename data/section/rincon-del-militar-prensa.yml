@@ -21,6 +21,6 @@ boxes:
     color: such
     align_x: left
     label: Leer publicación
-    pin: ↗
+    pin: north_east
     btn: none
 

@@ -51,6 +51,8 @@ boxes:
     color: such
     align_x: left
     label: Consultar fuente oficial
-    pin: ↗
+    pin: north_east
     btn: none
     slider: true
+    arrows: none
+    time: 8
