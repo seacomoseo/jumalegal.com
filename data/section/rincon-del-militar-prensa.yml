@@ -16,6 +16,7 @@ boxes:
     url: https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/
     label: Leer en El Faro de Ceuta
   box:
+    class: box--article
     cols: 2
     pd_vs: 1.5
     color: such

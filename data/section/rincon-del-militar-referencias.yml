@@ -45,6 +45,7 @@ boxes:
     md: Artículo en las páginas 43-83 de la revista, número correspondiente a julio-diciembre de 2023. Doctrina de un tercero, no asesoramiento ni autoría de Juma.
     url: https://publicaciones.defensa.gob.es/revista-espa-ola-de-derecho-militar-120-revistas-pdf.html
   box:
+    class: box--article
     cols: 3
     cols_vs: 1.1
     pd_vs: 1.5

@@ -117,6 +117,9 @@ h6, .h6,
   width: auto;
   margin-right: auto;
 }
+.box:not(.box--article) > .box__btn {
+  margin-left: auto;
+}
 .box__btn.link {
   font-weight: $font-weight-bold-cursive;
   color: var(--hover);

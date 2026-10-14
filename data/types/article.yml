@@ -4,6 +4,7 @@ weight: 2
 rel: true
 tpl:
   list:
+    class: box--article
     cols_vs: 1
     pd_vs: 1.5
     fade: hide
