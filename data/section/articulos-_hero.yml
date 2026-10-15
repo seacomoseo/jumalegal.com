@@ -1,0 +1,40 @@
+name: Base ➡️ Hero
+node: header
+color: dark
+alpha: .75
+get:
+- from: img
+  to: bi
+- to: rate
+- from: title
+  to: alt
+- from: seo.title
+  to: alt
+box:
+  align: left
+boxes:
+# - if: breadcrumbs
+#   node: nav
+#   md: '{{< breadcrumbs >}}'
+- if: icon
+  get:
+  - to: title
+  - from: h1
+    to: title
+  - to: icon
+  icon_pos: side
+- if: not icon
+  get:
+  - to: title
+  - from: h1
+    to: title
+- tags:
+  - type: type
+  - type: date
+  # - type: time
+  # - type: words
+  - type: tax
+    tax: all
+  - type: param
+    param: autor
+    icon: people

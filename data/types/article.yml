@@ -3,6 +3,20 @@ base: article
 weight: 2
 rel: true
 tpl:
+  sections:
+  - file: articulos-_hero
+  - params:
+      node: div
+      pt: 0
+      pb: 2
+  - file: base-toc
+  - file: base-content
+  - file: base-address
+  - file: base-author
+  - file: base-comments
+  - file: base-children
+  - file: base-share
+  - file: base-rel
   list:
     cols_vs: 1
     pd_vs: 1.5

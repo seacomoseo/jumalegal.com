@@ -1,5 +1,6 @@
 # TO DO
 
+- `pt_vs` > `pb_vl`
 
 ## CLIENTE
 
