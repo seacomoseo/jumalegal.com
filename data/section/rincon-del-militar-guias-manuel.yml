@@ -29,7 +29,6 @@ boxes:
     md: Instrucciones con capturas de la plataforma para realizar el trámite.
     url: /u/recursos/modificacion-datos-compensacion-economica-invied.pdf
   box:
-    class: box--article
     cols: 2
     cols_vs: 1.1
     pd_vs: 1.5

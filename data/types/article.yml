@@ -4,14 +4,15 @@ weight: 2
 rel: true
 tpl:
   list:
-    class: box--article
     cols_vs: 1
     pd_vs: 1.5
+    card: true
+    color: dark
     fade: hide
+    alpha: .5
+    rate: 4/5
     icon: hide
-    # shade: true
-    # ratio: 16/9
-    # inset: true
+    img: not-hide
     align: left
     label: Leer artículo
     pin: north_east

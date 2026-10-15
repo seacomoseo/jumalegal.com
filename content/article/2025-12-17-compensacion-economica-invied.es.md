@@ -1,6 +1,7 @@
 ---
 title: La compensación económica del INVIED al cambiar de destino
 slug: compensacion-economica-invied
+img: /u/articulos/compensacion-invied.webp
 date: 2025-12-17 17:10:14
 sum: ¿Eres militar y te enfrentas a un cambio de destino? Si es así, debes saber que el Instituto de Vivienda, Infraestructura
   y Equipamiento de la Defensa (INVIED) ofrece una compensación económica que puede ser un apoyo fundamental para

@@ -6,7 +6,8 @@ Rutas CMS `/u/` para `uploads/`. Logos existentes intactos en `base/` y `colabor
 
 Todas en `uploads/fotos/`, WebP sin EXIF, lado largo ≤1920:
 - En uso inicial: `manuel-acosta-retrato-principal.webp`, `juma-escritorio-portatil.webp`.
-- Disponibles para ajustes: `juma-interior-despacho.webp`, `manuel-acosta-retrato-informal.webp`, `murcia-arquitectura-urbana.webp`, `manuel-acosta-llamada.webp`, `juma-tarjetas-balanza.webp`.
+- Artículos (en `uploads/articulos/`): `jurisdiccion-militar.webp`, `compensacion-invied.webp`, `arresto-disciplinario-faltas-leves.webp`, `licencia-estudios-silencio-positivo.webp`, `jornada-35-horas-fuerzas-armadas.webp`, `procedimiento-falta-leve.webp`, `exencion-irpf-misiones-otan.webp`.
+- Disponibles para ajustes: `juma-interior-despacho.webp`, `manuel-acosta-retrato-informal.webp`, `murcia-arquitectura-urbana.webp`, `manuel-acosta-llamada.webp`, `juma-tarjetas-balanza.webp`, `manuel-acosta-despacho-lectura-documentos.webp`.
 
 No publicar firma, títulos personales/códigos, imágenes descartadas con Civil ni fuentes privadas.
 

@@ -1,6 +1,7 @@
 ---
 title: 'La jurisdicción militar: conoce a esta gran desconocida'
 slug: jurisdiccion-militar
+img: /u/articulos/jurisdiccion-militar.webp
 date: 2025-12-13 17:13:28
 sum: La jurisdicción militar tiene su origen en la misma génesis de los Ejércitos permanentes y ha sido siempre
   una jurisdicción especializada, carácter que se deriva de la naturaleza del Derecho que aplica y del ámbito institucional

@@ -1,8 +1,5 @@
 # TO DO
 
-- Parpadeo en scrolls
-- Imágenes en artículos con Antigrabity
-
 
 ## CLIENTE
 

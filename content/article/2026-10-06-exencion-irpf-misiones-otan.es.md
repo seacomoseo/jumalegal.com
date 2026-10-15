@@ -1,6 +1,7 @@
 ---
 title: 'Exención del IRPF en misiones de la OTAN: una resolución favorable comunicada por Juma Legal'
 slug: exencion-irpf-misiones-otan
+img: /u/articulos/exencion-irpf-misiones-otan.webp
 sum: Criterio del Tribunal Supremo sobre trabajos en el extranjero en operaciones de la OTAN.
 seo:
   title: 'IRPF en misiones OTAN: exención y límites | Juma Legal'

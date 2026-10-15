@@ -1,6 +1,7 @@
 ---
 title: La licencia de estudios en las Fuerzas Armadas y el silencio positivo
 slug: licencia-estudios-silencio-positivo
+img: /u/articulos/licencia-estudios-silencio-positivo.webp
 date: 2026-01-08 16:51:43
 sum: 'La formación académica y profesional es un elemento clave en la carrera de cualquier militar. La posibilidad de
   cursar estudios oficiales universitarios, de posgrado o de especialización— no solo permite mejorar la capacitación

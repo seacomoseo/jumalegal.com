@@ -1,6 +1,7 @@
 ---
 title: El procedimiento de falta leve en Derecho Militar
 slug: procedimiento-falta-leve
+img: /u/articulos/procedimiento-falta-leve.webp
 date: 2026-04-06 14:42:37
 sum: Vídeo divulgativo de Manuel Acosta sobre la importancia del procedimiento disciplinario de falta leve en el ámbito militar.
 seo:

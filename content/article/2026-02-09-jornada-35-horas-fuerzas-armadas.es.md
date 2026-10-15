@@ -1,6 +1,7 @@
 ---
 title: Sobre la posible implantación de la jornada de 35 horas en las Fuerzas Armadas
 slug: jornada-35-horas-fuerzas-armadas
+img: /u/articulos/jornada-35-horas-fuerzas-armadas.webp
 date: 2026-02-09 22:27:27
 sum: La reciente confirmación por parte del Gobierno de avanzar hacia la implantación de la jornada de 35 horas
   semanales para el personal de la Administración General del Estado ha reabierto un debate de enorme relevancia

@@ -1,6 +1,7 @@
 ---
 title: 'El arresto disciplinario por faltas leves: una sanción desfasada en el siglo XXI'
 slug: arresto-disciplinario-faltas-leves
+img: /u/articulos/arresto-disciplinario-faltas-leves.webp
 date: 2025-12-19 17:00:40
 sum: 'Quiero comenzar aclarando algo: no pongo en duda la constitucionalidad ni la legalidad del arresto disciplinario
   en el ámbito castrense. El Tribunal Constitucional lo ha avalado y se encuentra previsto en la Ley Orgánica 8/2014,
