@@ -7,7 +7,7 @@ boxes:
 - title: En **prensa.**
   hs: .03
   hs_vs: .05
-- mt_vs: 2
+- mt: 2
   class: prensa
   boxes:
   - title: Reducción de jornada e indemnización por residencia

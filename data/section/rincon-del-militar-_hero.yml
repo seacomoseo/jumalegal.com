@@ -15,8 +15,8 @@ boxes:
   bi: /u/fotos/juma-escritorio-portatil.webp
   alt: Manuel Acosta, director de Juma Legal
   scroll: soft
-  mt: -5
-  mb_vs: -5
+  mt_vl: -5
+  mb: -5
 box:
   cols: 2
   gap: 5

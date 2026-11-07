@@ -17,7 +17,7 @@ boxes:
     gap_vs: 1
     align_y: bottom
     align_x: space-between
-- mt_vs: 2
+- mt: 2
   class: prensa
   boxes:
   - title: Conciliación en las Fuerzas Armadas

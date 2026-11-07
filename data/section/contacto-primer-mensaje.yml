@@ -24,6 +24,7 @@ boxes:
   title: Una vía de contacto a tu medida.
   form:
     icon: north_east
+    # mail: lorensansol@gmail.com
   inputs:
   - type: text
     name: Nombre y apellidos

@@ -16,7 +16,7 @@ boxes:
   #   align_y: bottom
   #   align_x: space-between
 - id: areas-derecho
-  mt_vs: 2
+  mt: 2
   boxes:
   - title: Derecho <br> Militar
     sub: 01 / Especialidad Principal

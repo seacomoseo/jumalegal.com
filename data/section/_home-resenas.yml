@@ -8,8 +8,8 @@ boxes:
 - boxes:
   - title: Experiencias reales. <br> **En sus propias palabras.**
     hs: .02
-- mt_vs: 2
-  mb_vs: 2
+- mt: 2
+  mb: 2
   reviews:
   - title: Isopi
     md: |

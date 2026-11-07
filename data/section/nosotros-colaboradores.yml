@@ -14,7 +14,7 @@ boxes:
     gap_vs: 1
     align_y: bottom
     align_x: space-between
-- mt_vs: 2
+- mt: 2
   boxes:
   - anchor: Apestegui Abogados
     img: /u/colaboradores/apestegui.png
