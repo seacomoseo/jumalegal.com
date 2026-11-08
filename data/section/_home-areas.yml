@@ -34,4 +34,8 @@ boxes:
     pd_vs: 2
     hs: .03
     label: Conocer el área
-    pin: north_east
+    ir: north_east
+    btn_mt: 1.5
+    btn_full: false
+    sort:
+    - sub

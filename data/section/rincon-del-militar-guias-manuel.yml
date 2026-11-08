@@ -5,18 +5,18 @@ box:
 boxes:
 # - sub: 01 **Disponible ahora**
 - boxes:
-  - title: Guías prácticas de **Manuel Acosta.**
+  - title: Guías prácticas de <br> **Manuel Acosta.**
     hs: .03
     hs_vs: .05
-  - md: |
-      Documentos originales del autor para consultar y descargar.
-      Información general que no sustituye el asesoramiento sobre tu caso.
-    fit: .8
-  box:
-    cols: 2
-    gap_vs: 1
-    align_y: bottom
-    align_x: space-between
+  # - md: |
+  #     Documentos originales del autor para consultar y descargar.
+  #     Información general que no sustituye el asesoramiento sobre tu caso.
+  #   fit: .8
+  # box:
+  #   cols: 2
+  #   gap_vs: 1
+  #   align_y: bottom
+  #   align_x: space-between
 - mt: 2
   class: prensa
   boxes:
@@ -35,8 +35,11 @@ boxes:
     color: such
     align_x: left
     label: Descargar PDF
-    pin: arrow_cool_down
+    ir: arrow_cool_down
     btn: none
     slider: true
     arrows: none
     time: 8
+    btn_full: false
+    sort:
+    - sub

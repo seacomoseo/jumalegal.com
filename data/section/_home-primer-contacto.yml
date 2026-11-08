@@ -32,6 +32,8 @@ boxes:
     cols: 3
     gap_vs: 3
     hs: 4
+    sort:
+    - sub
 - url: /contacto/
   label: Cómo contactar
-  pin: north_east
+  ir: north_east

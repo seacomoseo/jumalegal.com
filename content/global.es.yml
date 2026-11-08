@@ -12,15 +12,15 @@ menu:
   - label: Contacto
     url: /contacto/
     btn: cta
-    icon: north_east
+    ir: north_east
   - label: Rincón del Militar
     url: /rincon-del-militar/
 callnows:
 - type: custom
   url: /contacto/
   label: Plantea tu caso
-  icon: alternate_email
-  ga4: false
+  il: alternate_email
+  ga4: none
 footer:
   color: dark
   md: hide
@@ -31,9 +31,9 @@ footer:
       Derecho Militar y Administrativo.\
       Desde Murcia, para toda España.
 
-      [::brand:instagram::](https://www.instagram.com/juma.legal/ "Instagram [dot nofollow]")
-      [::brand:tiktok::](https://www.tiktok.com/@juma.legal "TikTok [dot nofollow]")
-      [::brand:linkedin-in::](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/ "Linkedin [dot nofollow]")
+      [::brand:instagram::](https://www.instagram.com/juma.legal/ "Instagram {dot lock}")
+      [::brand:tiktok::](https://www.tiktok.com/@juma.legal "TikTok {dot lock}")
+      [::brand:linkedin-in::](https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/ "Linkedin {dot lock}")
       {.btns .h1}
   - node: div
   - md: |
@@ -48,7 +48,7 @@ footer:
       - ::none:: [Aviso legal](/aviso/)
       - ::none:: [Privacidad](/privacidad/)
       - ::none:: [Cookies](/cookies/)
-      - ::none:: Diseño Web [seacomoseo.com](https://seacomoseo.com/ "[homefollow]")
+      - ::none:: Diseño Web [seacomoseo.com](https://seacomoseo.com/ "{sublock}")
     align: left
   box:
     cols: 4

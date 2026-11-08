@@ -1,9 +1,8 @@
 baseURL: https://jumalegal.com
 buildFuture: true
-theme: [sansoul]
 params:
-  owner: seacomoseo
   domain: jumalegal.com
+  owner: seacomoseo
   name: jumalegal
   netlify_id: ''
   netlify_hook: ''

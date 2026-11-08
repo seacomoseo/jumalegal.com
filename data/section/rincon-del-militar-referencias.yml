@@ -5,18 +5,18 @@ box:
 boxes:
 # - sub: 01 **Disponible ahora**
 - boxes:
-  - title: Guías y obras **de referencia.**
+  - title: Guías y obras <br> **de referencia.**
     hs: .03
     hs_vs: .05
-  - md: Selección de fuentes externas para ampliar información.
-      Conservan su autoría y fecha de edición; no son guías elaboradas por
-      Juma Legal ni garantizan por sí mismas la vigencia de todos sus contenidos.
-    fit: .8
-  box:
-    cols: 2
-    gap_vs: 1
-    align_y: bottom
-    align_x: space-between
+  # - md: Selección de fuentes externas para ampliar información.
+  #     Conservan su autoría y fecha de edición; no son guías elaboradas por
+  #     Juma Legal ni garantizan por sí mismas la vigencia de todos sus contenidos.
+  #   fit: .8
+  # box:
+  #   cols: 2
+  #   gap_vs: 1
+  #   align_y: bottom
+  #   align_x: space-between
 - mt: 2
   class: prensa
   boxes:
@@ -51,8 +51,11 @@ boxes:
     color: such
     align_x: left
     label: Consultar fuente oficial
-    pin: north_east
+    ir: north_east
     btn: none
     slider: true
     arrows: none
     time: 8
+    btn_full: false
+    sort:
+    - sub

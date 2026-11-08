@@ -11,6 +11,6 @@ boxes:
   # La consulta jurídica de estudio se acuerda aparte.
   url: /contacto/
   label: Plantear mi asunto
-  pin: north_east
+  ir: north_east
 box:
   align: center

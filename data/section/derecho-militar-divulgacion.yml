@@ -8,7 +8,7 @@ boxes:
 - md: |
     El Rincón del Militar reúne artículos existentes sobre normativa y problemas habituales.
 
-    [[::north_east:: Explorar recursos]](/rincon-del-militar/)
+    [[Explorar recursos ::north_east::]](/rincon-del-militar/)
 box:
   cols: 2
   gap: 5

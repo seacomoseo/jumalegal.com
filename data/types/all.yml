@@ -10,6 +10,9 @@ tpl:
   callnow: custom
   section:
   - size: sm
+    box:
+      sort:
+      - sub
   sections:
   - file: base-_hero
   - file: base-toc

@@ -56,5 +56,7 @@ boxes:
     align_x: left
     hs: 4
     md_sm: true
-    pin: north_east
+    ir: north_east
     btn: none
+    sort:
+    - sub

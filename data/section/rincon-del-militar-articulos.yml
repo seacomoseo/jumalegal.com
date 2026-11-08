@@ -8,13 +8,13 @@ boxes:
   - title: Conocimiento que <br> **ya puedes consultar.**
     hs: .03
     hs_vs: .05
-  - md: 'Recursos de carácter general: no sustituyen el estudio individual de una situación ni deben usarse sin verificar vigencia y plazos.'
-    fit: .8
-  box:
-    cols: 2
-    gap_vs: 1
-    align_y: bottom
-    align_x: space-between
+  # - md: 'Recursos de carácter general: no sustituyen el estudio individual de una situación ni deben usarse sin verificar vigencia y plazos.'
+  #   fit: .8
+  # box:
+  #   cols: 2
+  #   gap_vs: 1
+  #   align_y: bottom
+  #   align_x: space-between
 - mt: 2
   mb: 2
   class: prensa
@@ -30,6 +30,6 @@ boxes:
     time: 8
 - url: /articulos/
   label: Ver todos los artículos
-  pin: north_east
+  ir: north_east
   align: center
   btn: none

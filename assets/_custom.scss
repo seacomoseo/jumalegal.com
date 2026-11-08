@@ -1,5 +1,5 @@
-@use "../themes/sansoul/assets/css/variables" as *;
-@use "../themes/sansoul/assets/css/mixins" as *;
+@use "../core/assets/css/variables" as *;
+@use "../core/assets/css/mixins" as *;
 
 // General
 .box__sub:has(strong) {
@@ -42,18 +42,8 @@
   letter-spacing: .16em;
   font-size: 66%;
 }
-.box__title:not(.hide) + .box__sub {
-  order: -1;
-  margin: 0 0 calc(-0.5 * var(--box-gap));
-}
-.box__icon--top,
-.img {
-  &:has(+ .box__title:not(.hide) + .box__sub) {
-    order: -2;
-  }
-}
-.bg-card {
-  order: -3;
+.box__sub:has(+ .box__title:not(.hide)) {
+  margin-bottom: calc(-0.5 * var(--box-gap)); 
 }
 h1, .h1,
 h2, .h2,
@@ -99,23 +89,18 @@ h6, .h6,
 .btn,
 .link {
   > .icon {
-    order: 20;
     align-self: center;
     scale: none;
   }
 }
-.btn:not(.btn--dot) > .icon {
-  margin-inline: 0 -0.25em;
+.btn:not(.btn--dot) > .icon--right {
+  margin-right: -0.25em;
 }
 
 .review__stars {
   color: var(--alt-text);
 }
 
-.box__btn,
-.form__btn {
-  width: auto;
-}
 .box__btn.link {
   font-weight: $font-weight-bold-cursive;
   color: var(--hover);
@@ -145,10 +130,6 @@ h6, .h6,
 #areas-derecho {
   .box__title {
     margin-block: 1.5rem;
-  }
-  .box__btn {
-    margin-top: 1.5rem;
-    width: auto;
   }
 }
 

@@ -5,10 +5,9 @@ rel: true
 tpl:
   sections:
   - file: articulos-_hero
-  - params:
-      node: div
-      pt: 0
-      pb: 2
+  - node: div
+    pt: 0
+    pb: 2
   - file: base-toc
   - file: base-content
   - file: base-address
@@ -29,7 +28,8 @@ tpl:
     img: not-hide
     align: left
     label: Leer artículo
-    pin: north_east
+    ir: north_east
     btn: none
+    btn_full: false
     tags:
     - type: date

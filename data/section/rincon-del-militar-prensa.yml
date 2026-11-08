@@ -21,6 +21,9 @@ boxes:
     color: such
     align_x: left
     label: Leer publicación
-    pin: north_east
+    ir: north_east
     btn: none
+    btn_full: false
+    sort:
+    - sub
 
