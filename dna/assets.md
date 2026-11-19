@@ -26,6 +26,11 @@ Las seis obras externas del Rincón se enlazan a fuentes oficiales, no se alojan
 - `uploads/videos/procedimiento-falta-leve.webp`: fotograma real al segundo 1 del mismo vídeo, 1280 × 720, no portada inventada ni sustitución de contenido. Se usa como `img` junto con `vid` en la composición nativa.
 - Artículo `/articulo/procedimiento-falta-leve/`; enlaces antiguos del artículo y del MP4 redirigen directamente a sus destinos finales.
 
+## Fondos y vídeos de Nosotros
+
+- Fondos decorativos de Inicio en `uploads/fotos/`: `derecho-militar-placas.webp` (placas grabadas con «Manuel Acosta» y «Juma Legal») y `derecho-administrativo-expediente.webp` (expediente con sello). Imágenes generadas para el sitio, sin valor documental.
+- Vídeos de Nosotros en `uploads/videos/`: MP4 H.264 y portadas WebP extraídas de las publicaciones públicas de Juma Legal. [Trayectoria de Manuel](https://www.instagram.com/reel/DW4V876Dfq4/), [IPEC desfavorable](https://www.instagram.com/reel/DYScJIytAxx/), [destino lejos de la familia](https://www.instagram.com/reel/DdZandEKNNv/) y [responsabilidad patrimonial](https://www.instagram.com/reel/DbtLFCKKyWX/). Se reproducen al pulsar su miniatura.
+
 ## Tipografía
 
 `uploads/fonts/`: Hero Light/Regular/Bold (700), Outfit y licencias. No peso sintético. Procedencia y criterio en [identidad.md](identidad.md).

@@ -1,6 +1,26 @@
 {
   "version": 1,
   "entries": {
+    "/u/videos/destino-lejos-de-la-familia.mp4": {
+      "fingerprint": "d4b800396189ee931f753c025355979ff65f18d416acfc0e6f75cee2cf8e4c1c",
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "ratio": 0.5625,
+        "duration": "PT64.033S",
+        "name": "Destino lejos de la familia"
+      }
+    },
+    "/u/videos/ipec-desfavorable.mp4": {
+      "fingerprint": "14472d0e22ea11e2315746b55fa88e2dcc2d696a1deecbcca5736a35232b9966",
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "ratio": 0.5625,
+        "duration": "PT33.833S",
+        "name": "Ipec desfavorable"
+      }
+    },
     "/u/videos/procedimiento-falta-leve.mp4": {
       "fingerprint": "a80233db4ad644dcdfbb306715632947c711000464951febd2eb391b75c6863c",
       "metadata": {
@@ -9,6 +29,26 @@
         "ratio": 1.7777777777777777,
         "duration": "PT68.033S",
         "name": "Procedimiento falta leve"
+      }
+    },
+    "/u/videos/responsabilidad-patrimonial.mp4": {
+      "fingerprint": "f6e050dd56d16c5a514fc34dac84edc39fd1921aca9cbf55f97340b8809a8cb2",
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "ratio": 0.5625,
+        "duration": "PT36.933S",
+        "name": "Responsabilidad patrimonial"
+      }
+    },
+    "/u/videos/trayectoria-manuel-acosta.mp4": {
+      "fingerprint": "174e41569b0ebd186dc4da2160c0021be67d5f7c7eee6664238249997fa8ed7c",
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "ratio": 0.5625,
+        "duration": "PT46.5S",
+        "name": "Trayectoria manuel acosta"
       }
     }
   }

@@ -131,6 +131,15 @@ h6, .h6,
   object-position: var(--align);
 }
 
+@media (max-width: 600px) {
+  #areas-derecho .bg-main-dark.bg-img {
+    --bi-alpha: .67 !important;
+  }
+  #areas-derecho .bg-fig-img img {
+    object-position: right center;
+  }
+}
+
 // Dispel
 .dispel {
   // --mask-img: linear-gradient(transparent 0%, black 15%);

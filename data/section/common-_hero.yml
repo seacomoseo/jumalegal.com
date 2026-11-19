@@ -19,7 +19,8 @@ boxes:
     mt: .5
     align_x: flex-start
     ir: north_east
-- get:
+- if: not hero.vid
+  get:
   - from: hero.bi
     to: bi
   - from: hero.alt
@@ -29,6 +30,18 @@ boxes:
   scroll: soft
   mt_vl: -5
   mb: -5
+- if: hero.vid
+  class: hero-video
+  get:
+  - from: hero.img
+    to: img
+  - from: hero.vid
+    to: vid
+  - from: hero.ratio
+    to: ratio
+  - from: hero.alt
+    to: alt
+  mute: false
 box:
   cols: 2
   gap: 5

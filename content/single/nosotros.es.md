@@ -63,35 +63,24 @@ redes:
   - title: Reducción de jornada e indemnización por residencia
     sub: Prensa **El faro de Ceuta**
     md: El Faro de Ceuta recoge una explicación de Manuel publicada en TikTok sobre militares destinados en Ceuta y Melilla.
-    url: https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/)
+    url: https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/
     label: Leer publicación
+  videos:
   - title: El camino de Manuel hacia la abogacía
-    sub: Instagram **Historia personal**
-    md: Una publicación para conocer la persona detrás de Juma y su recorrido profesional.
-    url: https://www.instagram.com/juma.legal/reel/DW4V876Dfq4/
-    label: Ver en Instagram
+    img: /u/videos/trayectoria-manuel-acosta.webp
+    vid: /u/videos/trayectoria-manuel-acosta.mp4
   - title: Cuando la calificación es desfavorable
-    sub: Instagram **IPEC**
-    md: Información sobre una de las cuestiones habituales de la vida profesional militar.
-    url: https://www.instagram.com/juma.legal/reel/DYScJIytAxx/)
-    label: Ver en Instagram
+    img: /u/videos/ipec-desfavorable.webp
+    vid: /u/videos/ipec-desfavorable.mp4
   - title: Un destino lejos de la familia
-    sub: Instagram **Derecho Militar**
-    md: Divulgación sobre situaciones que conectan vida familiar y carrera militar.
-    url: https://www.instagram.com/juma.legal/reel/DdZandEKNNv/)
-    label: Ver en Instagram
-  - title: La indemnización por residencia
-    sub: TikTok **Retribuciones**
-    md: Una explicación sobre reducción de jornada y retribuciones, también recogida en prensa.
-    url: https://www.tiktok.com/@juma.legal/video/7665747624716176662)
-    label: Ver en TikTok
+    img: /u/videos/destino-lejos-de-la-familia.webp
+    vid: /u/videos/destino-lejos-de-la-familia.mp4
+  - title: Responsabilidad patrimonial
+    img: /u/videos/responsabilidad-patrimonial.webp
+    vid: /u/videos/responsabilidad-patrimonial.mp4
   mas:
-  - label: Instagram
-    url: https://www.instagram.com/juma.legal/
-  - label: TikTok
-    url: https://www.tiktok.com/@juma.legal
   - label: Actividad pública en LinkedIn
-    url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/recent-activity/all/)
+    url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/recent-activity/all/
 
 contacto:
   sub: hide

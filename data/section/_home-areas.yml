@@ -16,6 +16,9 @@ boxes:
   - get:
     - from: areas.militar.color
       to: color
+    - from: areas.militar.bi
+      to: bi
+    alpha: .52
     boxes:
     - get:
       - from: areas.militar.sub
@@ -38,6 +41,9 @@ boxes:
   - get:
     - from: areas.administrativo.color
       to: color
+    - from: areas.administrativo.bi
+      to: bi
+    alpha: .7
     boxes:
     - get:
       - from: areas.administrativo.sub

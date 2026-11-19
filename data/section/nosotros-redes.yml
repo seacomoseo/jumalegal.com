@@ -10,6 +10,18 @@ boxes:
     to: title
   hs: .03
 - mt: 2
+  get:
+  - from: redes.videos
+    to: boxes
+  box:
+    cols: 4
+    cols_vs: 2
+    gap: 1.5
+    gap_vs: .75
+    ratio: 9/16
+    mute: false
+    hs: 4
+- mt: 2
   mb: 2
   class: prensa
   get:

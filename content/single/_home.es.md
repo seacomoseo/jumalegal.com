@@ -116,12 +116,14 @@ areas:
     md: Procedimientos disciplinarios, IPEC, condiciones psicofísicas, jurisdicción militar y vida profesional.
     url: /derecho-militar/
     color: main-dark
+    bi: /u/fotos/derecho-militar-placas.webp
   administrativo:
     sub: 02 / Segunda Área
     title: Derecho <br> Administrativo
     md: Empleo público, sanciones, recursos, contratación pública y otros conflictos con la Administración.
     url: /derecho-administrativo/
     color: main-light
+    bi: /u/fotos/derecho-administrativo-expediente.webp
   label: Conocer el área
 
 manuel:
