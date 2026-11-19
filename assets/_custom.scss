@@ -176,7 +176,11 @@ h6, .h6,
   }
 }
 
-#hero .hero-photo a > .icon,
+#hero .hero-photo a > .icon {
+  width: 6.5rem;
+  height: 4.6rem;
+}
+
 #redes-prensa [data-vid] ~ .icon {
   width: 3.25rem;
   height: 2.3rem;
