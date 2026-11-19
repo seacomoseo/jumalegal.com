@@ -124,10 +124,33 @@ h6, .h6,
   .box__md    { @include show-from(2); }
   .links      { @include show-from(3); }
   .bg-fig     { @include show-from(4); }
-  .hero-video .img {
-    max-width: 19rem;
-    margin-inline: auto;
+}
+
+#hero .hero-photo > .links {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: end;
+  margin: 0;
+  padding: 1rem;
+  z-index: 1;
+  pointer-events: none;
+  animation: none;
+
+  .btn--dot {
+    --base: #{$main};
+    --base-in: #{$white};
+    --hover: #{$main-dark};
+    --hover-in: #{$white};
+    width: 3rem;
+    height: 3rem;
+    pointer-events: auto;
   }
+}
+
+#video-presentacion .img--ratio {
+  max-width: calc((100dvh - 6rem) * (var(--img-ratio)));
+  margin-inline: auto;
 }
 
 // Colaboradores
@@ -144,7 +167,7 @@ h6, .h6,
   }
 }
 
-:is(#redes-prensa, #hero .hero-video) [data-vid] ~ .icon {
+#redes-prensa [data-vid] ~ .icon {
   top: auto;
   left: auto;
   right: .65rem;
