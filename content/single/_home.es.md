@@ -103,7 +103,9 @@ hero:
     btn: alt
   - label: Plantear una consulta
     url: /contacto/
-  bi: /u/fotos/manuel-acosta-retrato-principal.webp
+  img: /u/videos/presentacion-inicio.webp
+  vid: /u/videos/presentacion-inicio.mp4
+  ratio: 9/16
   alt: Manuel Acosta, director de Juma Legal
   color: main-dark
 
@@ -116,7 +118,6 @@ areas:
     md: Procedimientos disciplinarios, IPEC, condiciones psicofísicas, jurisdicción militar y vida profesional.
     url: /derecho-militar/
     color: main-dark
-    bi: /u/fotos/derecho-militar-placas.webp
   administrativo:
     sub: 02 / Segunda Área
     title: Derecho <br> Administrativo

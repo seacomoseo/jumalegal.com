@@ -25,7 +25,9 @@ hero:
   links:
   - label: Plantear una consulta
     url: /contacto/
-  bi: /u/fotos/manuel-acosta-retrato-principal.webp
+  img: /u/videos/presentacion-derecho-militar.webp
+  vid: /u/videos/presentacion-derecho-militar.mp4
+  ratio: 16/9
   alt: Manuel Acosta, director de Juma Legal
   color: main-light
 

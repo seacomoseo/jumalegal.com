@@ -28,8 +28,9 @@ Las seis obras externas del Rincón se enlazan a fuentes oficiales, no se alojan
 
 ## Fondos y vídeos de Nosotros
 
-- Fondos decorativos de Inicio en `uploads/fotos/`: `derecho-militar-placas.webp` (placas grabadas con «Manuel Acosta» y «Juma Legal») y `derecho-administrativo-expediente.webp` (expediente con sello). Imágenes generadas para el sitio, sin valor documental.
-- Vídeos de Nosotros en `uploads/videos/`: MP4 H.264 y portadas WebP extraídas de las publicaciones públicas de Juma Legal. [Trayectoria de Manuel](https://www.instagram.com/reel/DW4V876Dfq4/), [IPEC desfavorable](https://www.instagram.com/reel/DYScJIytAxx/), [destino lejos de la familia](https://www.instagram.com/reel/DdZandEKNNv/) y [responsabilidad patrimonial](https://www.instagram.com/reel/DbtLFCKKyWX/). Se reproducen al pulsar su miniatura.
+- Fondo decorativo de Derecho Administrativo en Inicio: `uploads/fotos/derecho-administrativo-expediente.webp`. Imagen generada para el sitio, sin valor documental.
+- Vídeos de Nosotros en `uploads/videos/`: MP4 H.264 y portadas WebP convertidas desde las imágenes de portada publicadas por Juma Legal en Instagram. [Trayectoria de Manuel](https://www.instagram.com/reel/DW4V876Dfq4/), [IPEC desfavorable](https://www.instagram.com/reel/DYScJIytAxx/), [destino lejos de la familia](https://www.instagram.com/reel/DdZandEKNNv/) y [responsabilidad patrimonial](https://www.instagram.com/reel/DbtLFCKKyWX/). Se reproducen al pulsar su miniatura.
+- Presentaciones aportadas por Loren: `uploads/videos/presentacion-inicio.mp4` (vertical, 720 × 1280, 22,9 s, 2.564.532 bytes) y `uploads/videos/presentacion-derecho-militar.mp4` (horizontal, 1280 × 720, 24,37 s, 2.310.678 bytes). H.264 a 30 fps, AAC original y MP4 faststart. Las miniaturas WebP homónimas son encuadres del retrato principal ajustados a cada formato y se muestran hasta que se pulsa reproducir.
 
 ## Tipografía
 

@@ -21,6 +21,26 @@
         "name": "Ipec desfavorable"
       }
     },
+    "/u/videos/presentacion-derecho-militar.mp4": {
+      "fingerprint": "6078e5a701d07a2a37f43de43a4b95cb6daa23c9a45e8807f1e3077697c0f0ac",
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "duration": "PT24.367S",
+        "name": "Presentacion derecho militar"
+      }
+    },
+    "/u/videos/presentacion-inicio.mp4": {
+      "fingerprint": "69cfb0544e1adb507b485430c43fb6ca0a2c449b3c5ad5ddf0046914b0fc1c2a",
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "ratio": 0.5625,
+        "duration": "PT22.9S",
+        "name": "Presentacion inicio"
+      }
+    },
     "/u/videos/procedimiento-falta-leve.mp4": {
       "fingerprint": "a80233db4ad644dcdfbb306715632947c711000464951febd2eb391b75c6863c",
       "metadata": {

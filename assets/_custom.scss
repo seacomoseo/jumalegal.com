@@ -124,6 +124,10 @@ h6, .h6,
   .box__md    { @include show-from(2); }
   .links      { @include show-from(3); }
   .bg-fig     { @include show-from(4); }
+  .hero-video .img {
+    max-width: 19rem;
+    margin-inline: auto;
+  }
 }
 
 // Colaboradores
@@ -138,6 +142,17 @@ h6, .h6,
   #areas-derecho .bg-fig-img img {
     object-position: right center;
   }
+}
+
+:is(#redes-prensa, #hero .hero-video) [data-vid] ~ .icon {
+  top: auto;
+  left: auto;
+  right: .65rem;
+  bottom: .65rem;
+  width: 3.25rem;
+  height: 2.3rem;
+  transform: none;
+  animation: none;
 }
 
 // Dispel
