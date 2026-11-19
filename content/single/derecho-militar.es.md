@@ -34,9 +34,8 @@ hero:
   play:
   - label: Reproducir la presentación de Derecho Militar
     url: '#video-presentacion'
-    il: play_arrow
-    btn: main
-    btn_dot: true
+    il: 'svg:youtube-iframe'
+    btn: none
   alt: Manuel Acosta, director de Juma Legal
   color: main-light
 
