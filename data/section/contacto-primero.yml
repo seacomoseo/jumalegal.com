@@ -1,0 +1,34 @@
+name: Contacto ➡️ Primer mensaje
+id: primer-mensaje
+color: white
+boxes:
+- get:
+  - from: datos.sub
+    to: sub
+  - from: datos.title
+    to: title
+  - from: datos.md
+    to: md
+  - from: datos.md
+    to: md
+  hs: .02
+- get:
+  - from: formulario.sub
+    to: sub
+  - from: formulario.title
+    to: title
+  - from: formulario.inputs
+    to: inputs
+  form:
+    il: none
+    ir: north_east
+    btn_full: false
+  color: main-light
+  pd: 2
+  pd_vs: 1.5
+box:
+  cols: 2
+  gap: 5
+  gap_vs: 3
+  align_y: top
+  align: left

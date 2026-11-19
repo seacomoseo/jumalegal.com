@@ -1,0 +1,42 @@
+name: Nosotros ➡️ Redes y prensa
+id: redes-prensa
+box:
+  align: left
+boxes:
+- get:
+  - from: redes.sub
+    to: sub
+  - from: redes.title
+    to: title
+  hs: .03
+- mt: 2
+  mb: 2
+  class: prensa
+  get:
+  - from: redes.boxes
+    to: boxes
+  box:
+    cols: 3
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    hs: 4
+    md_sm: true
+    ir: north_east
+    btn: none
+    btn_full: false
+    sort:
+    - sub
+- get:
+  - from: redes.mas
+    to: boxes
+  box:
+    cols: 3
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    ir: north_east
+    btn: none
+    btn_full: false

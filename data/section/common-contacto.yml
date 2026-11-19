@@ -1,0 +1,20 @@
+name: Común ➡️ Contacto
+id: contacto
+size: lg
+color: white
+boxes:
+- get:
+  - from: contacto.sub
+    to: sub
+  - from: contacto.title
+    to: title
+  - from: contacto.md
+    to: md
+  - from: contacto.label
+    to: label
+  - from: contacto.url
+    to: url
+  hs: .02
+  ir: north_east
+box:
+  align: center

@@ -11,14 +11,14 @@ img: /u/base/poster-sq.svg
 icon: home
 tpl:
   sections:
-  - file: _home-_hero
-  # - file: _home-enfoque
+  - file: common-_hero
   - file: _home-areas
   - file: _home-manuel
-  - file: _home-primer-contacto
-  - file: _home-rincon-del-militar
-  - file: _home-resenas
-  - file: _home-contacto
+  - file: nosotros-colaboradores
+  - file: _home-empezar
+  - file: common-recursos
+  - file: common-resenas
+  - file: common-contacto
 base: org
 org:
   types:
@@ -89,4 +89,68 @@ llms:
   desc: Juma Legal es un despacho dirigido por Manuel Acosta, no una asociación ni un organismo militar. Atiende
     Derecho Militar en España y Administrativo con foco en Murcia. Contacto por email; sin reserva automática ni
     promesa de consulta gratuita.
+
+hero:
+  sub: Derecho Militar y Administrativo
+  title: Tu carrera merece **una defensa sólida.**
+  md: |
+    Asesoramiento jurídico para militares y personas que necesitan
+    defender sus derechos frente a la Administración. \
+    Desde Murcia, con atención en toda España.
+  links:
+  - label: Explorar Derecho Militar
+    url: /derecho-militar/
+    btn: alt
+  - label: Plantear una consulta
+    url: /contacto/
+  bi: /u/fotos/manuel-acosta-retrato-principal.webp
+  alt: Manuel Acosta, director de Juma Legal
+  color: main-dark
+
+areas:
+  sub: 01 **Áreas de práctica**
+  title: Una práctica enfocada. <br> **Dos áreas conectadas.**
+  militar:
+    sub: 01 / Especialidad Principal
+    title: Derecho <br> Militar
+    md: Procedimientos disciplinarios, IPEC, condiciones psicofísicas, jurisdicción militar y vida profesional.
+    url: /derecho-militar/
+    color: main-dark
+  administrativo:
+    sub: 02 / Segunda Área
+    title: Derecho <br> Administrativo
+    md: Empleo público, sanciones, recursos, contratación pública y otros conflictos con la Administración.
+    url: /derecho-administrativo/
+    color: main-light
+  label: Conocer el área
+
+manuel:
+  sub: 02 **La persona detrás de Juma**
+  title: Un nombre al frente. **Un criterio propio.**
+  md: |
+    Manuel Acosta dirige Juma Legal. Su trabajo se centra en el Derecho Militar y Administrativo, con una forma
+    de atender cada asunto basada en escuchar, explicar y acompañar.
+
+    No hay una solución automática para una carrera profesional. Primero se entiende el problema; después, se define
+    el siguiente paso.
+  label: Conoce a Manuel
+  url: /nosotros/
+  bi: /u/fotos/manuel-acosta-retrato-informal.webp
+  alt: Retrato de Manuel Acosta
+
+empezar:
+  sub: 03 **Cómo empezamos**
+  title: El primer paso, <br> **sin malentendidos.**
+  boxes:
+  - sub: '01'
+    title: Cuéntanos lo esencial
+    md: Escribe un resumen breve de tu asunto por email. No envíes documentación sensible en este primer contacto.
+  - sub: '02'
+    title: Valoramos el asunto
+    md: Revisamos si podemos ayudarte y cuál sería el siguiente paso razonable.
+  - sub: '03'
+    title: Decides con información
+    md: Si necesitas una consulta jurídica de estudio, te explicaremos sus condiciones antes de concertarla.
+  label: Cómo contactar
+  url: /contacto/
 ---

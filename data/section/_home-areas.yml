@@ -4,38 +4,63 @@ color: white
 box:
   align: left
 boxes:
-- sub: 01 **Áreas de práctica**
-- boxes:
-  - title: Una práctica enfocada. <br> **Dos áreas conectadas.**
-    hs: .03
-  # - md: 'Un mismo criterio: claridad, rigor y atención personal en asuntos que pueden afectar tu trayectoria profesional.'
-  #   fit: .8
-  # box:
-  #   cols: 2
-  #   gap_vs: 1
-  #   align_y: bottom
-  #   align_x: space-between
+- get:
+  - from: areas.sub
+    to: sub
+  - from: areas.title
+    to: title
+  hs: .03
 - id: areas-derecho
   mt: 2
   boxes:
-  - title: Derecho <br> Militar
-    sub: 01 / Especialidad Principal
-    md: Procedimientos disciplinarios, IPEC, condiciones psicofísicas, jurisdicción militar y vida profesional.
-    url: /derecho-militar/
-    color: main-dark
-  - title: Derecho <br> Administrativo
-    sub: 02 / Segunda Área
-    md: Empleo público, sanciones, recursos, contratación pública y otros conflictos con la Administración.
-    url: /derecho-administrativo/
-    color: main-light
+  - get:
+    - from: areas.militar.color
+      to: color
+    boxes:
+    - get:
+      - from: areas.militar.sub
+        to: sub
+    - mt: 1
+      mb: 1.5
+      hs: .03
+      get:
+      - from: areas.militar.title
+        to: title
+    - get:
+      - from: areas.militar.md
+        to: md
+      - from: areas.militar.url
+        to: url
+      - from: areas.label
+        to: label
+      ir: north_east
+      btn_mt: 1.5
+  - get:
+    - from: areas.administrativo.color
+      to: color
+    boxes:
+    - get:
+      - from: areas.administrativo.sub
+        to: sub
+    - mt: 1
+      mb: 1.5
+      hs: .03
+      get:
+      - from: areas.administrativo.title
+        to: title
+    - get:
+      - from: areas.administrativo.md
+        to: md
+      - from: areas.administrativo.url
+        to: url
+      - from: areas.label
+        to: label
+      ir: north_east
+      btn_mt: 1.5
   box:
     cols: 2
     gap: 1
     pd_vs: 2
-    hs: .03
-    label: Conocer el área
-    ir: north_east
-    btn_mt: 1.5
     btn_full: false
     sort:
     - sub

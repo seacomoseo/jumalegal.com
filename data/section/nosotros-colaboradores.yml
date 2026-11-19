@@ -3,59 +3,62 @@ id: colaboradores
 box:
   align: left
 boxes:
-- sub: 02 **Profesionales colaboradores**
+- get:
+  - from: colaboradores.sub
+    to: sub
 - boxes:
-  - title: Especialidades que suman. **Manuel al frente de tu asunto.**
+  - get:
+    - from: colaboradores.title
+      to: title
     hs: 1
-  - md: |
-      Una red de profesionales y despachos independientes que complementa el trabajo de Juma según las necesidades de cada caso, con Manuel como referencia para tu consulta.
+  - get:
+    - from: colaboradores.md
+      to: md
   box:
     cols: 2
     gap_vs: 1
     align_y: bottom
     align_x: space-between
 - mt: 2
-  boxes:
-  - anchor: Apestegui Abogados
-    img: /u/colaboradores/apestegui.png
-    alt: Apestegui Abogados
-    md: Despacho colaborador
-    # md: Colaboración en asuntos de Derecho Militar y Guardia Civil.
-  - anchor: Ángeles Martínez Cudero
-    img: /u/colaboradores/martinez-cudero.png
-    alt: Ángeles Martínez Cudero
-    md: Abogada colaboradora
-    # md: Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.
-  - anchor: ABYTE
-    img: /u/colaboradores/abyte.png
-    alt: ABYTE
-    md: Derecho Administrativo
-    # md: Colaboración en Derecho Administrativo y Urbanismo.
-  - anchor: EVALUO
-    img: /u/colaboradores/evaluo.png
-    alt: EVALUO
-    md: Valoración de daño corporal
-    # md: Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones psicofísicas (EICP).
-  - anchor: IPFLegal
-    img: /u/colaboradores/ipflegal.png
-    alt: IPFLegal
-    md: Psicología Forense
-    # md: Instituto de Psicología Forense
-    # md: Colaboración en psicología forense y apoyo especializado.
-  - anchor: Fiscalisy
-    img: /u/colaboradores/fiscalisy.png
-    alt: Fiscalisy
-    md: Asesoramiento Fiscal
-    # md: Asesoría fiscal colaboradora de Juma Legal.
+  get:
+  - from: colaboradores.boxes
+    to: boxes
   box:
     cols: 6
     cols_vs: 2
     gap: 2
     gap_vs: 1.5
-    # color: such
-    align: center
+    align: left
     ratio: 3/1
     contain: true
     gray: true
     hs: 4
     md_sm: true
+- id: militares-con-futuro
+  mt: 5
+  fit: .75
+  boxes:
+  - get:
+    - from: colaboradores.mcf.img
+      to: img
+    - from: colaboradores.mcf.alt
+      to: alt
+    fit: .3
+    fit_vs: .5
+    gray: true
+  - get:
+    - from: colaboradores.mcf.sub
+      to: sub
+    - from: colaboradores.mcf.title
+      to: title
+    - from: colaboradores.mcf.md
+      to: md
+    fit: .6
+  box:
+    gap: 3
+    gap_vs: 2
+    align_y: center
+    align_x: left
+    align: left
+
+

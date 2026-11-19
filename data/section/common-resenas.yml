@@ -1,0 +1,33 @@
+name: Inicio ➡️ Reseñas
+id: resenas
+color: light
+box:
+  align: left
+boxes:
+- get:
+  - from: resenas.sub
+    to: sub
+  - from: resenas.title
+    to: title
+  hs: .02
+- mt: 2
+  mb: 2
+  get:
+  - from: resenas.reviews
+    to: reviews
+  review:
+    cols: 3
+    color: such
+    slider: true
+    arrows: none
+    time: 8
+    il: keyboard_double_arrow_left
+    ir: keyboard_double_arrow_right
+- get:
+  - from: resenas.label
+    to: label
+  - from: resenas.url
+    to: url
+  ir: north_east
+  align: center
+  btn: none

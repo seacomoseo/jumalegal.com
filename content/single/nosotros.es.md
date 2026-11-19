@@ -7,14 +7,96 @@ seo:
   title: 'Manuel Acosta: trayectoria y colaboradores | Juma Legal'
   desc: Conoce la formación y trayectoria de Manuel Acosta, abogado ICAMUR 8075, y la red de profesionales independientes
     que colabora con Juma.
-img: /u/fotos/manuel-acosta-retrato-principal.webp
+img: /u/fotos/manuel-acosta-retrato-informal.webp
 icon: person
 tpl:
   sections:
-  - file: nosotros-_hero
-  - file: nosotros-trayectoria-formacion
+  - file: common-_hero
+  - file: nosotros-formacion
   - file: nosotros-colaboradores
-  - file: nosotros-militares-con-futuro
-  - file: nosotros-redes-prensa
-  - file: nosotros-contacto
+  - file: nosotros-redes
+  - file: common-contacto
+
+hero:
+  sub: Nosotros / Juma Legal
+  title: La persona y **el criterio detrás del despacho.**
+  md: |
+    Juma Legal trabaja desde Murcia con una idea sencilla:
+    que quien nos consulta comprenda el camino que tiene por delante.
+  links:
+  - label: Hablemos
+    url: /contacto/
+  bi: /u/fotos/manuel-acosta-retrato-informal.webp
+  alt: Retrato de Manuel Acosta
+  color: main-light
+
+formacion:
+  sub: 01 **Manuel Acosta · Director**
+  title: Trato directo. <br> **Formación especializada.**
+  md: |
+    Manuel Acosta dirige Juma Legal y centra su práctica en el Derecho Militar y Administrativo.
+    Es abogado del Ilustre Colegio de Abogados de Murcia.
+
+    Tras opositar al cuerpo jurídico militar ha trabajado como abogado en despacho a nivel nacional.
+  boxes:
+  - title: Máster Universitario en Derecho Militar
+    md: Universidad Católica San Antonio · 2021
+  - title: Grado en Derecho
+    md: Universidad de Murcia · 2018
+  - title: Título profesional de Abogado
+    md: Ministerio de Justicia · 2022
+  - title: Máster de Acceso a la Abogacía
+    md: Universidad de Murcia · 2021-2022
+  - title: Experto en Derecho Militar
+    md: Formación especializada en Derecho Militar · 2021
+  - title: Contratación pública
+    md: Curso avanzado de capacitación · Universidad de Zaragoza · 2023
+  - title: Opositor Cuerpo Jurídico Militar
+    md: Administración pública
+  label: Trayectoria y formación en LinkedIn
+  url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/
+
+redes:
+  sub: 03 **En conversación**
+  title: En redes y en prensa. <br> **El Derecho, más cerca.**
+  boxes:
+  - title: Reducción de jornada e indemnización por residencia
+    sub: Prensa **El faro de Ceuta**
+    md: El Faro de Ceuta recoge una explicación de Manuel publicada en TikTok sobre militares destinados en Ceuta y Melilla.
+    url: https://elfarodeceuta.es/militar-reduccion-de-jornada-indemnizacion-por-residencia/)
+    label: Leer publicación
+  - title: El camino de Manuel hacia la abogacía
+    sub: Instagram **Historia personal**
+    md: Una publicación para conocer la persona detrás de Juma y su recorrido profesional.
+    url: https://www.instagram.com/juma.legal/reel/DW4V876Dfq4/
+    label: Ver en Instagram
+  - title: Cuando la calificación es desfavorable
+    sub: Instagram **IPEC**
+    md: Información sobre una de las cuestiones habituales de la vida profesional militar.
+    url: https://www.instagram.com/juma.legal/reel/DYScJIytAxx/)
+    label: Ver en Instagram
+  - title: Un destino lejos de la familia
+    sub: Instagram **Derecho Militar**
+    md: Divulgación sobre situaciones que conectan vida familiar y carrera militar.
+    url: https://www.instagram.com/juma.legal/reel/DdZandEKNNv/)
+    label: Ver en Instagram
+  - title: La indemnización por residencia
+    sub: TikTok **Retribuciones**
+    md: Una explicación sobre reducción de jornada y retribuciones, también recogida en prensa.
+    url: https://www.tiktok.com/@juma.legal/video/7665747624716176662)
+    label: Ver en TikTok
+  mas:
+  - label: Instagram
+    url: https://www.instagram.com/juma.legal/
+  - label: TikTok
+    url: https://www.tiktok.com/@juma.legal
+  - label: Actividad pública en LinkedIn
+    url: https://www.linkedin.com/in/manuel-andr%C3%A9s-acosta-hell%C3%ADn-629174239/recent-activity/all/)
+
+contacto:
+  sub: hide
+  title: Lo importante es <br> **tu siguiente paso.**
+  md: hide
+  label: Contactar
+  url: /contacto/
 ---

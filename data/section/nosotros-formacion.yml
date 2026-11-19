@@ -1,0 +1,39 @@
+name: Nosotros ➡️ Formación
+id: trayectoria-formacion
+box:
+  align: left
+boxes:
+- get:
+  - from: formacion.sub
+    to: sub
+- boxes:
+  - get:
+    - from: formacion.title
+      to: title
+    hs: .02
+  - get:
+    - from: formacion.md
+      to: md
+  box:
+    cols: 2
+    gap_vs: 1
+    align_y: bottom
+    align_x: space-between
+- mt: 2
+  mb: 2
+  get:
+  - from: formacion.boxes
+    to: boxes
+  box:
+    cols: 3
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+- get:
+  - from: formacion.label
+    to: label
+  - from: formacion.url
+    to: url
+  btn: none
+  ir: north_east

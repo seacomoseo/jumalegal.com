@@ -1,0 +1,33 @@
+name: Común ➡️ Rincón del Militar
+id: rincon-del-militar
+color: main-dark
+boxes:
+- get:
+  - from: rincon.sub
+    to: sub
+  - from: rincon.title
+    to: title
+  - from: rincon.md
+    to: md
+  - from: rincon.url
+    to: url
+  - from: rincon.label
+    to: label
+  hs: .02
+  ir: north_east
+  btn: turn
+- get:
+  - from: rincon.bi
+    to: bi
+  - from: rincon.alt
+    to: alt
+  class: dispel
+  scroll: soft
+  mt_vl: -5
+  mb: -5
+box:
+  cols: 2
+  gap: 5
+  gap_vs: 2
+  align: left
+  sides: true

@@ -1,0 +1,33 @@
+name: Rincón del Militar ➡️ Artículos
+id: articulos
+box:
+  align: left
+boxes:
+- get:
+  - from: articulos.sub
+    to: sub
+  - from: articulos.title
+    to: title
+  hs: .03
+  hs_vs: .05
+- mt: 2
+  mb: 2
+  class: prensa
+  list:
+    type: article
+    max: 12
+  box:
+    cols: 4
+    cols_vs: 1.5
+    align_x: left
+    slider: true
+    arrows: none
+    time: 8
+- get:
+  - from: articulos.label
+    to: label
+  - from: articulos.url
+    to: url
+  ir: north_east
+  align: center
+  btn: none

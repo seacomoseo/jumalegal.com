@@ -1,0 +1,37 @@
+name: Común ➡️ Hero
+id: hero
+color: main-light
+get:
+- from: hero.color
+  to: color
+boxes:
+- get:
+  - from: hero.sub
+    to: sub
+  - from: hero.title
+    to: title
+  - from: hero.md
+    to: md
+  - from: hero.links
+    to: links
+  hs: 0.0125
+  link:
+    mt: .5
+    align_x: flex-start
+    ir: north_east
+- get:
+  - from: hero.bi
+    to: bi
+  - from: hero.alt
+    to: alt
+  class: dispel
+  rate: 4/3
+  scroll: soft
+  mt_vl: -5
+  mb: -5
+box:
+  cols: 2
+  gap: 5
+  gap_vs: 2
+  align: left
+  sides: true

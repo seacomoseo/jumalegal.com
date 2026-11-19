@@ -1,0 +1,28 @@
+name: Común ➡️ Asuntos
+id: asuntos
+box:
+  align: left
+boxes:
+- get:
+  - from: asuntos.sub
+    to: sub
+  - from: asuntos.title
+    to: title
+  hs: .02
+- mt: 2
+  mb: 2
+  get:
+  - from: asuntos.boxes
+    to: boxes
+  box:
+    cols: 3
+    gap: 1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    hs: 4
+    md_sm: true
+    ir: north_east
+    btn: none
+    sort:
+    - sub

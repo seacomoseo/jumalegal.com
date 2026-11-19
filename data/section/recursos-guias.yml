@@ -1,0 +1,32 @@
+name: Rincón del Militar ➡️ Guías
+id: guias
+box:
+  align: left
+boxes:
+- get:
+  - from: guias.sub
+    to: sub
+  - from: guias.title
+    to: title
+  hs: .03
+  hs_vs: .05
+- mt: 2
+  class: prensa
+  get:
+  - from: guias.boxes
+    to: boxes
+  box:
+    cols: 3
+    cols_vs: 1.1
+    pd_vs: 1.5
+    color: such
+    align_x: left
+    label: '{{ get guias.label }}'
+    ir: north_east
+    btn: none
+    slider: true
+    arrows: none
+    time: 8
+    btn_full: false
+    sort:
+    - sub

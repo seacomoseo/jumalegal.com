@@ -85,4 +85,4 @@ shadow:
   top: 0
   blur: 0
   color: black
-  alpha: 0
+  alpha: 1

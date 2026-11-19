@@ -2,21 +2,54 @@ name: Inicio ➡️ Manuel Acosta
 id: manuel
 color: alt-light
 boxes:
-- sub: 02 **La persona detrás de Juma**
-  title: Un nombre al frente. **Un criterio propio.**
-  hs: .02
-  md: |
-    Manuel Acosta dirige Juma Legal. Su trabajo se centra en el Derecho Militar y Administrativo, con una forma
-    de atender cada asunto basada en escuchar, explicar y acompañar.
+- box:
+    gap: 5
+    sort:
+    - sub
+  boxes:
+  - get:
+    - from: manuel.sub
+      to: sub
+    - from: manuel.title
+      to: title
+    - from: manuel.md
+      to: md
+    - from: manuel.label
+      to: label
+    - from: manuel.url
+      to: url
+    hs: .02
+    ir: north_east
+    btn: such
 
-    No hay una solución automática para una carrera profesional. Primero se entiende el problema; después, se define
-    el siguiente paso.
-  url: /nosotros/
-  label: Conoce a Manuel
-  ir: north_east
-  btn: such
-- bi: /u/fotos/manuel-acosta-retrato-informal-sin-fondo.webp
-  alt: Retrato de Manuel Acosta
+
+  # - get:
+  #   - from: colaboradores.sub
+  #     to: sub
+  #   # - from: colaboradores.title
+  #   #   to: title
+  #   - from: colaboradores.boxes
+  #     to: boxes
+  #   # title: Especialidades **que suman**
+  #   box:
+  #     cols: 3
+  #     cols_vs: 2
+  #     gap: 2
+  #     gap_vs: 1.5
+  #     align: left
+  #     ratio: 3/1
+  #     contain: true
+  #     gray: true
+  #     hs: 4
+  #     md_sm: true
+
+
+- get:
+  - from: manuel.bi
+    to: bi
+  - from: manuel.alt
+    to: alt
+  class: dispel dispel--right
   rate: 1/1
   scroll: soft
   mt_vl: -5

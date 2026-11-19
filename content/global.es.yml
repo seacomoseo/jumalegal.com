@@ -15,12 +15,103 @@ menu:
     ir: north_east
   - label: Rincón del Militar
     url: /rincon-del-militar/
+
 callnows:
 - type: custom
   url: /contacto/
   label: Plantea tu caso
   il: alternate_email
   ga4: none
+
+colaboradores:
+  sub: 02 **Profesionales colaboradores**
+  title: Especialidades que suman. **Manuel al frente de tu asunto.**
+  md: |
+    Una red de profesionales y despachos independientes que complementa el trabajo de Juma
+    según las necesidades de cada caso, con Manuel como referencia para tu consulta.
+  boxes:
+  - hanchor: ABYTE
+    img: /u/colaboradores/abyte.png
+    alt: ABYTE
+    md: Derecho Administrativo
+    # md: Colaboración en Derecho Administrativo y Urbanismo.
+  - hanchor: Apestegui Abogados
+    img: /u/colaboradores/apestegui.png
+    alt: Apestegui Abogados
+    md: Despacho colaborador
+    # md: Colaboración en asuntos de Derecho Militar y Guardia Civil.
+  - hanchor: Ángeles Martínez Cudero
+    img: /u/colaboradores/martinez-cudero.png
+    alt: Ángeles Martínez Cudero
+    md: Abogada colaboradora
+    # md: Colaboración en asuntos de Derecho Militar y Guardia Civil. Ejerce como profesional autónoma vinculada a Apestegui.
+  - hanchor: EVALUO
+    img: /u/colaboradores/evaluo.png
+    alt: EVALUO
+    md: Valoración de daño corporal
+    # md: Dr. José Antonio López Morata. Peritaje médico-legal y apoyo en expedientes de insuficiencia de condiciones psicofísicas (EICP).
+  - hanchor: IPFLegal
+    img: /u/colaboradores/ipflegal.png
+    alt: IPFLegal
+    md: Psicología Forense
+    # md: Instituto de Psicología Forense
+    # md: Colaboración en psicología forense y apoyo especializado.
+  - hanchor: Fiscalisy
+    img: /u/colaboradores/fiscalisy.png
+    alt: Fiscalisy
+    md: Asesoramiento Fiscal
+    # md: Asesoría fiscal colaboradora de Juma Legal.
+  # - hanchor: Militares Con Futuro (MCF)
+  #   img: /u/colaboradores/mcf.png
+  #   md: Asociación Profesional
+  mcf:
+    img: /u/colaboradores/mcf.png
+    alt: Asociación Profesional Militares Con Futuro
+    sub: Otras relaciones profesionales
+    title: Militares Con Futuro
+    md: |
+      Manuel Acosta presta asesoramiento jurídico a una de las principales asociaciones de militares del panorama nacional:
+      Militares Con Futuro. Juma Legal también atiende asuntos particulares de militares y miembros de la Guardia Civil.
+
+resenas:
+  sub: '**Opiniones de clientes**'
+  title: Experiencias reales. <br> **En sus propias palabras.**
+  reviews:
+  - title: Isopi
+    md: |
+        Muchísimas gracias a Manuel por todo el trabajo y la paciencia para llevar mi caso.
+
+        Gracias de corazón.
+  - title: Emilio M.
+    md: |
+        Muy buen trato con Manuel que me ayudó en el proceso en cada momento.
+
+        Gracias por todo.
+  - title: Omar O.
+    md: |
+        Manuel y su equipo su equipo se preocupan en todo momento por tu caso, responden con rapidez a pesar de la alta carga de trabajo, resuelven todas tus incógnitas con eficacia y mi experiencia personal con ellos ha sido, y es, muy positiva, totalmente recomendable!!!
+  - title: Francisco C.
+    md: |
+        Gran trato y profesionalidad, expertos en derecho administrativo.
+  label: Ver todas las reseñas en Google
+  url: https://maps.google.com/maps?cid=11524462493824631
+
+rincon:
+  sub: '**Conocimiento compartido**'
+  title: Un rincón para **entender tus derechos.**
+  md: Artículos sobre la vida profesional militar.
+  url: /rincon-del-militar/
+  label: Visitar el Rincón del Militar
+  bi: /u/fotos/juma-escritorio-portatil.webp
+  alt: Cuaderno de Juma Legal sobre un escritorio
+
+contacto:
+  sub: Hablemos con claridad
+  title: ¿Necesitas orientación sobre <br> **tu situación?**
+  md: Un primer mensaje basta para valorar si podemos ayudarte.
+  label: Plantear mi asunto
+  url: /contacto/
+
 footer:
   color: dark
   md: hide

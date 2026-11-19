@@ -1,0 +1,29 @@
+name: Inicio ➡️ Empezar
+id: empezar
+color: light
+box:
+  align: left
+boxes:
+- get:
+  - from: empezar.sub
+    to: sub
+  - from: empezar.title
+    to: title
+  hs: .03
+- mt: 2
+  mb: 2
+  get:
+  - from: empezar.boxes
+    to: boxes
+  box:
+    cols: 3
+    gap_vs: 3
+    hs: 4
+    sort:
+    - sub
+- get:
+  - from: empezar.label
+    to: label
+  - from: empezar.url
+    to: url
+  ir: north_east
